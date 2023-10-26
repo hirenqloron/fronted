@@ -1,9 +1,6 @@
 import { React, useState } from "react";
-import { useNavigate } from "react-router-dom";
-
 import "./Declaration.css";
 import Bulb from "../../../image/bulb.svg";
-// import Bulb from "../../../image/Bulb.svg";
 import DecMydec from "./Mydeclaration/DecMydec";
 import Incomeothersou from "./Incomeothersource/Incomeothersou";
 import Houseproperty from "./Houseprop/Houseproperty";

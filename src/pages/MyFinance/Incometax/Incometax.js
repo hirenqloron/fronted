@@ -6,7 +6,6 @@ import Rectangleicon3 from "../../../image/Rectangle 348.svg";
 import circleicon from "../../../image/Rectangle 424.svg";
 import downloadicon from "../../../image/downloadicon.svg";
 import Bulb from "../../../image/bulb.svg";
-// import Bulb from "../../../image/Bulb.svg";
 
 const Incometax = () => {
   const navigate = useNavigate();
