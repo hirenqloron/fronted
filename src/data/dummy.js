@@ -219,7 +219,14 @@ export const Sidelinks = [
         icon: <div> <img src={pendingInvoiceIcon} alt="Bank Outline Icon" />  </div>,
         link: "/pendingInvoice",
       },
-
+      {
+        id: 17,
+        name: "hrportal",
+        title: "Hr Portal",
+        permission: [{ role: 'ROLE_ADMIN' }],
+        icon: <div> <img src={pendingInvoiceIcon} alt="Hr Portal Icon" />  </div>,
+        link: "/hrportal",
+      },
     ],
   },
 ];
