@@ -1,6 +1,6 @@
 import styles from "./Previousname.module.css";
-import Bulb from "../../../image/Bulb.svg";
-// import Bulb from "../../../image/bulb.svg";
+// import Bulb from "../../../image/Bulb.svg";
+import Bulb from "../../../image/bulb.svg";
 
 
 const PreviousName=()=>{
