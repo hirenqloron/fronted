@@ -1,0 +1,416 @@
+.invoiceContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 200px auto;
+    gap: 30px;
+  }
+  
+  .invoiceColum1 {
+    padding: 10px;
+    width: auto;
+    border-radius: 3px;
+    /* border: 0.8px solid #c9c9c9; */
+    background: #fff;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1),
+      0px -5px 8px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .invoiceColumn2 {
+    padding: 5px;
+    width: auto;
+    border-radius: 3px;
+    /* border: 0.8px solid #c9c9c9; */
+    background: #fff;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1),
+      0px -5px 8px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoiceFile {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .invoiceSelect select {
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    background: #fff;
+  }
+  .hide{
+    display: none;
+  }
+  .invoiceInput input {
+    width: 400px;
+    margin-right: 19px;
+    height: 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+    /* border: 0.8px solid #6d6976; */
+  }
+  
+  .tableHeader {
+    display: flex;
+    margin:20px 15px 0 15px;
+    justify-content: space-between;
+  }
+  
+  .filter {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 17px;
+  }
+  
+  .invoiceSelect select {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  .invoiceDiv {
+    margin-top: 30px;
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%;
+    margin-left: 22px;
+  }
+  
+  .invoiceDate {
+    margin-top: 50px;
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%;
+  }
+  .tableHeader select {
+    border-radius: 3px;
+    border: 0.8px solid #bdbac5;
+    background: #7367F0;
+    height: 40px;
+    width: 110px;
+    /* margin-left: 13px; */
+    padding: 0 5px;
+    color: #ffffff;
+  }
+  .optionName {
+    color: #c9c9c9;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+  }
+  
+  .selectBox {
+    border-radius: 3px;
+    border: 0.8px solid #bdbac5;
+    background: #f3f3f4;
+  }
+  
+  .optionName {
+    color: #c9c9c9;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 10px;
+  }
+  
+  .diologText {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%;
+  }
+  
+  .searchInvoice {
+    margin-left: 300px;
+  }
+  .searchInvoice input {
+    width: 350px;
+    height: 20px;
+    border-radius: 4px;
+    border: 0.8px solid #6d6976;
+    color: #6d6976;
+  }
+  
+  .actiontotal {
+    color: #ffffff;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 40px;
+  }
+  
+  .tablebalance {
+    color: #ffffff;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 40px;
+  }
+  
+  .tabisue {
+    color: #ffffff;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .closeBtn Button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+  }
+  
+  .creatButton {
+    margin-left: 30px;
+  }
+  .creatButton {
+    color: #fff;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 15px;
+    border-radius: 3px;
+    background: #7367f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .balanceitam {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .headerdata {
+    background-color: #7367f0;
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+  }
+  
+  .idColor {
+    color: #7367f0;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .clientInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clientImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .clientTitle {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 20px;
+  }
+  
+  .billForm {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.5%; /* 16.055px */
+  }
+  
+  .total {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .abletData {
+    margin-top: 30px;
+  }
+  
+  .tableId {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .tablebill {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .tableClient {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .tableTOtal {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+  }
+  
+  
+  .divBUTON {
+    display: flex;
+  }
+  
+  .totalDiv {
+    display: flex;
+  }
+  
+  .divIcons svg {
+    margin-left: 25px;
+  }
+  
+  .editconbtn svg {
+    margin-right: 20px;
+  }
+  .imagetitle {
+    color: #c9c9c9;
+    font-family: Public Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .editicon {
+    color: green;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .paidtableforinvoicee{
+    text-align: center !important;
+  }
+  .unpaidCell {
+    background-color: #6d6976;
+    color: red;
+  }
+  
+  .isueDatea {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .paid_bal, .pending_bal, .negative_bal {
+    background-color: #bbffce;
+    padding: 5px;
+    color: #2bd35a;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 2px;
+  }
+  .pending_bal {
+    background-color: #FCE4CD;
+    color: #FF9B34;
+  }
+  .negative_bal {
+    background-color: #FFFFFF !important;
+    color: #E91D1D;
+  }
+  .rupees {
+    color: #6d6976;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .inputclass input {
+    margin-top: 15px;
+  }
+  
+  .checkbox {
+    border-radius: 3px;
+  
+    color: #c9c9c9;
+  }
+  
+  .balaence {
+    margin-left: 40px;
+  }
+  
+  .tableidheader {
+    color: #ffffff;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .billform2 {
+    color: #ffffff;
+    font-family: Public Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  

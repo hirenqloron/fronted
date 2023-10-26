@@ -1,0 +1,324 @@
+.summary-bar {
+  /* width: 1063px; */
+  height: 56px;
+  border-radius: 3px;
+  background: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.05);
+  align-items: center;
+}
+.summary-bar p {
+  width:146px;
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  color: #6d6976;
+  padding: 16px 8px 16px 8px;
+  border-radius: 3px 3px 3px 3px;
+}
+.summary-bar > .summary {
+  background: #7367f0;
+  color: #fff;
+}
+.paymentbox {
+  /* width: 1063px; */
+  height: 316px;
+  border-radius: 3px;
+  background: #ffffff;
+  margin-top: 10px;
+  box-shadow: 0px 5px 8px 0px #0000000d;
+}
+.payinfo {
+  /* width: 1063px; */
+  height: 62px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.paymentbox > div > .payheading {
+  color: #7367f0;
+  margin-top: 12px;
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 21px;
+  padding: 21px;
+}
+.payinfoheading {
+  width: 170px;
+  height: 16px;
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  margin: 18px 0 18px 22px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #c9c9c9;
+}
+.banktrans {
+  width: 93px;
+  height: 16px;
+  margin-left: 22px;
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+}
+.accnodots{
+  width: 8px;
+height: 8px;
+  font-size:20px;
+}
+.bankheading {
+  /* width: 1063px; */
+  height: 50px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.bankinfo {
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 19px;
+  margin-left:11px;
+  color: #7367f0;
+  padding: 11px 0 0 11px;
+}
+.payinfo-3{
+  margin-left:13px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+tr {
+  text-align: left;
+}
+td,
+th {
+  padding: 21px 5px 5px 8px;
+}
+th {
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 16px;
+  color: #c9c9c9;
+}
+td {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 9px;
+  color: #6d6976;
+}
+.accountno table{
+margin-left:12px;
+}
+.finance3 {
+  /* width: 1063px; */
+  height: 293px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000000d;
+  margin-top: 10px;
+}
+.identityinfo {
+  /* width: 1063px; */
+  height: 55px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.identityinfo > .identityheading {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 12px;
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 21px;
+  padding: 21px;
+  color: #7367f0;
+}
+.pinimg{
+  margin-top:10px;
+}
+.indianlogo {
+  /* width: 1063px; */
+  height: 53px;
+  display: flex;
+  border: 0px 0px 0.800000011920929px 0px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.indianflag {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  margin-left: 14px;
+}
+.pancard {
+  width: 70px;
+  height: 16px;
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin: 20px 0 0 2px;
+}
+.verify {
+  width: 52px;
+  height: 12px;
+  margin: 22px 20px 0 5px;
+  border-radius:2px;
+  background: #2bd35a;
+  color: #ffffff;
+  font-family: Public Sans;
+  font-size: var(--subPara2);
+  font-weight: 500;
+  text-align: center;
+}
+.iconcircle {
+  display: flex;
+  height:31px;
+}
+.iconcircle>p{
+  margin: 9px;
+}
+.iconcircle > .elipseicon {
+  width: 10px;
+  height: 35px;
+}
+.eyeicon {
+  width: 15px;
+  height: 34px;
+  margin-left: 10px;
+}
+.photoid {
+  width: 57px;
+  height: 16px;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin-left: 20px;
+}
+.addressproof {
+  width: 95px;
+  height: 16px;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin-left: 20px;
+}
+.details {
+  width: 616px;
+  height: 188px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 8px 0px #0000000d;
+  background: #ffffff;
+  /* border-bottom: 0.8px solid #C9C9C9 */
+}
+.information {
+  width: 616px;
+  height: 56px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.details > div > .infoheading {
+  margin-top: 12px;
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 21px;
+  padding: 20px;
+  color: #7367f0;
+}
+.location {
+  display: flex;
+  justify-content: flex-start;
+}
+.ptdetails {
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin-top:15px;
+  margin-left: 20px;
+  width: 67px;
+  height: 16px;
+}
+
+.state {
+  color: #c9c9c9;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 7px;
+  line-height: 16px;
+  text-align: center;
+}
+.piniconfile{
+  font-family: Public Sans;
+font-size: var(--subHeading);
+font-weight: 500;
+line-height: 16px;
+text-align: center;
+display: flex;
+margin-left:72%;
+color: #7367F0;
+
+}
+.piniconfile span{
+  margin-top:10px;
+}
+.telangana {
+  font-family: Public Sans;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  margin-left: 20px;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+}
+.locationfix {
+  color: #c9c9c9;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 85px;
+  line-height: 16px;
+  text-align: center;
+}
+.hyderabad {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+}
+/* Add CSS styles for active section */
+.summary-active {
+  background-color: #7367F0; /* Set the background color for the active section */
+  color: #ffffff; /* Set the text color for the active section */
+}
+
+/* Add CSS styles for inactive sections */
+.summary-inactive {
+  background-color: #ffffff; /* Set the background color for inactive sections */
+  color: #000; /* Set the text color for inactive sections */
+}
+

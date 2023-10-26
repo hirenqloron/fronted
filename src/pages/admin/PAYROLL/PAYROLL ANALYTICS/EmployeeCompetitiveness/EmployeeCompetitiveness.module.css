@@ -1,0 +1,37 @@
+.header{
+    font-family: Public Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.divForm{
+    display: flex;
+
+}
+.btnReset{
+    /* width: 79px; */
+    margin-left: 1rem;
+padding: 8.14px 18px 8.14px 18px;
+border-radius: 3.26px;
+color: var(--color-white);
+background-color: var(--color-mediumslateblue-200);
+}
+.btnReset:hover{
+    background-color: var(--color-mediumslateblue-200);
+}
+.divSectionMain{
+    margin-top: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:63vh;
+
+}
+.contextStyle{
+   text-align: center;
+}

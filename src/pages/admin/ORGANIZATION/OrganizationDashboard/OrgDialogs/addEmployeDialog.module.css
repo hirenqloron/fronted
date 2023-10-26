@@ -1,0 +1,25 @@
+.DialogTitle {
+  background-color: #7367f0;
+  color: #ffffff;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 9px 14px !important;
+}
+.inputsforADdUSER {
+  width: 85%;
+  height: 18px;
+  border: 0.7px solid rgb(115, 103, 240);
+  border-radius: 5px;
+  font-size: 14px;
+  color: black;
+  outline: none;
+}
+.labelforuseradd {
+    width: auto;
+    display: block;
+}
+
+/* .datePick .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+    //padding: 13.5px 14px ;
+    padding: 13.5px 12.5px 10px;
+} */

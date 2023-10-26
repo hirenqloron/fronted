@@ -1,0 +1,33 @@
+.container2{
+    display: flex;
+    background-color: #fff;
+    width: 550px;
+    height: auto;
+    gap: 10px;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-container-11{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 600px;
+}
+
+.btn-color-8{
+    border-radius: 4.063px;
+    background: #7367f0;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn-color1-7{
+    border-radius: 4.063px;
+  border: 1.167px solid #7367f0;
+  padding: 10px 15px;
+  color: #7367f0;
+  margin-right: 30px;
+}

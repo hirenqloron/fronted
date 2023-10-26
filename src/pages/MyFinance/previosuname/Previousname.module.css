@@ -1,0 +1,222 @@
+.previousname {
+  display: flex;
+  margin-top: 12px;
+}
+.previousdata {
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #6d6976;
+  margin-right: 68px;
+}
+.previousdata p:last-child {
+  font-family: Public Sans;
+  font-size: var(--subPara1);
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #97949c;
+}
+.previousbox {
+  width: 382px;
+  height: 82px;
+  display: flex;
+  border-radius: 3px;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  background: #ffffff;
+  font-family: Public Sans;
+  font-size: var(--subPara1);
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6d6976;
+}
+.calendarscroll {
+  /* width: 1063px; */
+  height: 256px;
+  padding: 36px 0 36px 0;
+  margin-top: 17px;
+  border: 0px, 0.8px, 0px, 0px;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  background: #ffffff;
+  /* display: flex; */
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  /* overflow-x: scroll; */
+}
+.tabledatascroll{
+    width:836px;
+    background: #ffffff;
+    display: flex;
+    margin-left:160px;
+      overflow-x: scroll;
+
+}
+.prevnametable1 {
+  width: 126px;
+  height: 249px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: auto;
+margin-left: 298px;
+  border-left: 0.8px solid #c9c9c9;
+  box-shadow: 5px 0px 8px 0px #00000040;
+  /* z-index: 1; */
+}
+.prevnametable1 p:first-child {
+  width: 117px;
+  height: 10px;
+  margin: 0;
+  padding: 12px 0px 12px 9px;
+  font-size: var(--subPara2);
+  color: #ffffff;
+  background: #7367f0;
+}
+.prevnametable1 p {
+  width: 117px;
+  height: 17px;
+  /* color: #C9C9C9; */
+  color: #6d6976;
+  margin: 0;
+  padding: 16px 0px 9px 9px;
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.prevnametable2 {
+  width: 109px;
+  height: 250px;
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}
+.prevnametable21 {
+    width: 109px;
+    height: 250px;
+    border: 0px, 0.8px, 0px, 0px;
+    color: #ffffff;
+    border-right: 0.8px solid #c9c9c9;
+  }
+  
+.prevnametable2 p{
+    width: 1583px;
+    height: 17px;
+    /* color: #C9C9C9; */
+    /* color: #6d6976; */
+    margin: 0;
+    padding: 16px 0px 9px 9px;
+    border-bottom: 0.8px solid #c9c9c9;
+  
+}
+.prevnametable21 p:first-child {
+    width: 100px;
+    font-size: var(--subPara2);
+    height: 10px;
+    padding: 12px 0 12px 9px;
+    margin: 0;
+    background: #7367f0;
+  }
+  
+.prevnametable2 p:first-child {
+  width: 100px;
+  /* border-right: 0.8px solid #C9C9C9; */
+  font-size: var(--subPara2);
+
+  height: 10px;
+  padding: 12px 0 12px 9px;
+  margin: 0;
+  background: #7367f0;
+}
+/* .prevnametable3{
+    width: 109px;
+height: 250px;
+border: 0px, 0.8px, 0px, 0px;
+color: #C9C9C9;
+border-right: 0.8px solid #C9C9C9
+} */
+.prevnametable3 {
+  width: 154px;
+  height: 250px;
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}
+.prevnametable3 p:first-child {
+  width: 146px;
+  margin: 0;
+  height: 10px;
+  padding: 12px 0 12px 8px;
+
+  font-size: var(--subPara2);
+
+  background: #7367f0;
+}
+.prevnametable4 {
+  width: 73px;
+  height: 250px;
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}
+.prevnametable4 p:first-child {
+  width: 64px;
+  height: 10px;
+  padding: 12px 0 12px 9px;
+  font-size: var(--subPara2);
+
+  margin: 0;
+  background: #7367f0;
+}
+.prevnametable6 {
+  width: 188px;
+  height: 250px;
+
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}
+.prevnametable6 p:first-child {
+  width: 179px;
+  height: 10px;
+  padding: 12px 0 12px 9px;
+  margin: 0;
+  font-size: var(--subPara2);
+
+  background: #7367f0;
+}
+.prevnametable7 {
+  width: 172px;
+  height: 249px;
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}
+.prevnametable7 p:first-child {
+  width: 163px;
+  height: 10px;
+  padding: 12px 0 12px 9px;
+  margin: 0;
+  font-size: var(--subPara2);
+
+  background: #7367f0;
+}
+.prevnametable5 p:first-child {
+  width: 104px;
+  height: 10px;
+  padding: 12px 0 12px 8px;
+  font-size: var(--subPara2);
+
+  margin: 0;
+  background: #7367f0;
+}
+.prevnametable5 {
+  width: 112px;
+  height: 250px;
+  border: 0px, 0.8px, 0px, 0px;
+  color: #ffffff;
+  border-right: 0.8px solid #c9c9c9;
+}

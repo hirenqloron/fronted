@@ -1,0 +1,49 @@
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.input label {
+  font-family: Public Sans;
+  /* font-size: 16px; */
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input div {
+  display: flex;
+  align-items: center;
+  
+}
+.input div input {
+  outline: none;
+}
+.p1::placeholder{
+  color: #6d6976;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.p2::placeholder {
+  color: #c9c9c9;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.input div button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.error{
+  color:red;
+  font-size: 12px;
+}

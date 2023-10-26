@@ -1,0 +1,103 @@
+.card1 {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-family: Public Sans !important;
+    padding-left: 25px;
+  }
+
+
+  .card1 h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 25px;
+    color: #6d6976;
+  }
+  
+  .card1 form {
+    padding-top: 20px;
+    
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.d1 h6{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #6D6976;
+margin: 10px 0px;
+
+}
+
+.d1 ul{
+    margin: 0px;
+}
+
+.d1 ul li{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #97949C;
+
+    
+}
+  .btnDiv {
+    display: flex;
+    padding-top: 25px;
+    gap: 20px;
+  }
+  
+  .btn {
+    background-color: #7367f0;
+    box-shadow: 0px 5px 8px 0px #0000001a;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    height: 36px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 4px;
+    gap: 10px;
+  }
+  .btn1 {
+    background-color: #7367f0;
+    box-shadow: 0px 5px 8px 0px #00000040;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    height: 36px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 4px;
+    gap: 10px;
+  }
+  .btn2 {
+    color: #c4c5c9;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #f1f1f2;
+    height: 36px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 4px;
+    gap: 10px;
+    outline: none;
+    border: none;
+  }
+  

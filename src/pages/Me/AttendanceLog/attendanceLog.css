@@ -1,0 +1,115 @@
+.main-Attendance-Log-sec {
+  margin: 30px 0 5px 0;
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+}
+.days-Attendance-Log {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+}
+.last-30-days-log h1 {
+  margin: 0px;
+  font-size: var(--mainHeading);
+  font-weight: 400;
+  line-height: 19px;
+  color: #7b7373;
+}
+.btns-for-last-30-days-log {
+  /* border: 1px solid #7b73734f; */
+  padding: 11px 20px;
+  background-color: #fff;
+  outline: none !important;
+  border-style: "none";
+  cursor: pointer;
+  font-size: var(--mainHeading);
+  font-weight: 400;
+  line-height: 12px;
+  color: #7b7373;
+}
+/* .btns-for-last-30-days-log:hover {
+  background-color: #7367f0;
+  color: #fff;
+} */
+.btns-for-last-30-days-log-active {
+  background-color: #7367f0;
+  color: #fff;
+}
+.first-child-btn {
+  border-radius: 4px 0px 0px 4px;
+}
+.last-child-btn {
+  border-radius: 0px 4px 4px 0px;
+}
+.load-more-main {
+  margin: 30px 0;
+  text-align: center;
+}
+.load-more-btn {
+  padding: 11px 16px;
+  background: #7367f0;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-style: none;
+  border-radius: 3px;
+}
+.load-more-btn span {
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.Attendance-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse !important;
+  width: 100%;
+  /* border-spacing: 30px !important; */
+}
+
+.Attendance-table .theading {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #7b7373;
+}
+.Attendance-table .theading th {
+  padding: 20px 13px;
+}
+.Attendance-table .tData:hover {
+  background-color: #7b73731c;
+}
+.Attendance-table .tData {
+  border: 1px solid #7b73731c;
+  margin: 10px 0 !important;
+  background-color: #fff;
+  box-shadow: 0px 5px 8px 0px #0000001A;
+  text-align: center;
+  cursor: pointer;
+}
+.Attendance-table .tData td {
+  padding: 20px 0;
+  /* background-color: #7367f0; */
+  /* box-shadow: 0px 5px 8px 0px #0000001a; */
+  font-size: var(--subHeading);
+  font-weight: 400;
+  line-height: 14px;
+  color: #000000;
+}
+
+.verticle-lines {
+  position: relative;
+}
+.verticle-lines .process-bar-verticle {
+  position: absolute;
+  width: 90px;
+  height: 10px;
+  top: 1.5px;
+  left: 15%;
+}
+
+.verticle-lines img {
+  width: 1.2px;
+}

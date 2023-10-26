@@ -1,0 +1,265 @@
+.paybar {
+  /* width: 1063px; */
+  height: 56px;
+  border-radius: 3px;
+  background: #ffffff;
+  /* text-align: center; */
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  /* padding:12px; */
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.05);
+  align-items: center;
+}
+.paybar p {
+  height: 16px;
+  padding: 19px 134px 19px 135px;
+  border-radius: 3px;
+  gap: 10px;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+}
+.mysalaryheading{
+  background: #7367f0;
+  color: #fff;
+
+}
+/* .paybar p:hover {
+  background: #7367f0;
+  color: #fff;
+} */
+.paybar-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+.box-1 {
+  width: 422px;
+  height: 103px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-1 p:first-child {
+  width: 183px;
+  height: 16px;
+  padding-top:7px;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30px;
+  text-align: center;
+  color: #c9c9c9;
+}
+.box-1 p:last-child {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin-top: -44px;
+  margin-left: 33px;
+}
+.box-1 > div>.businesslogo{
+  margin-left: 49px;
+}
+.box-2 {
+  /* width: 616px; */
+  height: 104px;
+  border-radius: 3px;
+  background: #ffffff;
+  margin-left: 10px;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  display: flex;
+}
+.paybox-2 {
+  /* width: 1063px; */
+  height: 411px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0px 8px 8px 0px #0000001a;
+}
+.salaryheading {
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 24px;
+  /* text-align: center; */
+  color: #6d6976;
+  padding: 18px 30px 0;
+}
+.salarycontent {
+  /* width: 1021px; */
+  height: 45px;
+  border-radius: 3px;
+  background: #7367f0;
+  margin-left: 31px;
+  color: #ffffff;
+}
+.contentinside {
+  padding: 15px;
+  margin: auto;
+  font-family: Public Sans;
+  font-size: var(--subPara1);
+  font-weight: 500;
+  line-height: 14px;
+}
+.contentinside a {
+  text-decoration: none;
+  color: black;
+}
+.arrowimg {
+  width: 32px;
+  height: 32px;
+  background: #e1eafa;
+  border-radius: 20px;
+  margin-left: 34px;
+  margin-top:15px;
+}
+.paybox-sub {
+  display: flex;
+}
+
+.paybox-sub p:nth-child(2) {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+  margin: 23px 0 0 14px;
+}
+.paybox-sub p:nth-child(3) {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 23px 0 0 14px;
+  color: #c9c9c9;
+}
+.paybox-sub p:last-child {
+  width: 56px;
+  height: 12px;
+  border-radius: 2px;
+  background: #7367f0;
+  font-family: Public Sans;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: center;
+  color: #ffffff;
+  margin: 24px 0 0 9px;
+}
+.paybox-3 {
+  /* width: 956px; */
+  height: 205px;
+  border-radius: 3px;
+  border: 1px;
+  border: 1px solid #cac6f6;
+  color: #cac6f6;
+  margin-left: 34px;
+}
+.salarydetails p:first-child {
+  margin-left: 20px;
+}
+.salarydetails p:nth-child(2) {
+  margin-left: 39px;
+}
+.salarydetails>div{
+    margin-left: 39px;
+}
+.salarydetails div >p {
+  color: black;
+}
+.salaryhead {
+  display: flex;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 18px 7px 10px 23px;
+  text-align: center;
+  color: #c9c9c9;
+}
+.salarytotal {
+  margin-left: 234px;
+}
+.salarytotal1 {
+  margin-left: 274px;
+}
+.salarydetails {
+  width: 954px;
+height: 39px;
+border: 0.5px;
+background: #E1EAFA;
+border: 0.5px solid #E1EAFA;
+  display: flex;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin:23px 0 0 0px;
+  text-align: center;
+  color: #7367f0;
+}
+.salaryno {
+  font-family: Public Sans;
+  display: flex;
+  padding: 0 0 0 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+}
+.salarytotal2 {
+  margin-left: 219px;
+}
+.salarytotal3 {
+  margin-left: 289px;
+}
+.salaryhead1 {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 23px;
+  margin-left: 29px;
+  text-align: center;
+  color: #c9c9c9;
+}
+.box-2-1 {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  color: #7367f0;
+  margin: 25px 0 0 19px;
+}
+.salaryno1 {
+  font-family: Public Sans;
+  padding: 0 0 0 55px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #6d6976;
+}
+.paycircle {
+  margin-left: 34px;
+}
+.monthly {
+  margin-left: 96px;
+}
+.onlinepayimg{
+  width: 179px;
+  height: 87px;
+}

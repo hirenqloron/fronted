@@ -1,0 +1,40 @@
+.incheading{
+font-family: Public Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #6D6976;
+
+}
+.incdata{
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #97949C;
+
+}
+.incomebox{
+    /* width: 1063px; */
+height: 91px;
+border-radius: 3px;
+border: 0.8px solid #C9C9C9;
+box-shadow: 0px 5px 8px 0px #0000001A;
+
+}
+.incomebox p{
+    width: 1002px;
+/* height: 38px; */
+border-radius: 3px;
+margin: 26px 0 0 19px;
+font-family: Public Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+padding: 11px;
+background: #9C92FC;
+color: #FFFFFF;
+
+}

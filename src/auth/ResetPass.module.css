@@ -1,0 +1,334 @@
+.imgSecure {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.imgSecure img {
+    width: 15%;
+}
+
+.splitContainer1 {
+    width: 100%;
+    display: flex;
+    /* margin: 30px; */
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-poppins) !important;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #ffffff;
+  }
+  
+  .innerSplitLoginContainer {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    min-height: 94vh;
+    height: 100%;
+    box-shadow: 0px 4.766666412353516px 7.62666654586792px 0px #00000040;
+    /* border: 1px solid red; */
+    border-radius: 40px;
+    overflow: hidden;
+  }
+  
+  .leftSide1 {
+    display: flex;
+    width: 55%;
+  }
+  .leftSide1 img {
+    width: 90%;
+    min-height: 94vh;
+    height: 100% !important;
+    background-color: #f8f8f8;
+  }
+  
+  .rightSide1 {
+    width: 40%;
+    /* display: flex;
+    flex-direction: column; */
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    margin: 20px 0 0 0;
+  }
+  .logo1 {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .rightSide1 .logo1 img {
+    height: 80px;
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    background-size: cover;
+  }
+  .loginForm1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 15px;
+  }
+  .loginForm1 h1 {
+    color: #7367f0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .loginForm1 h5 {
+    color: #353535;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .login-options {
+    margin-bottom: 20px;
+  }
+  
+  /* .loginForm1 {
+    height: 50px;
+    width: 400px;
+    padding-left: 40px;
+  } */
+  
+  .inputGroup1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .inputLabel1 {
+    color: #202020;
+    font-family: Public Sans;
+    font-size: var(--mainHeading);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .remember-me label {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  .remember-me p {
+    font-size: var(--subHeading);
+  }
+  
+  .forgot-password-button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 12px;
+  }
+  
+  input {
+    /* width: 95%; */
+    padding: 10px;
+    border: 0.8px solid #ccc;
+    border-radius: 1px;
+  }
+  
+  .divider {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .divider h3 {
+    background-color: #fff;
+    padding: 0 10px;
+  }
+  
+  .create-account {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .create-account a {
+    color: blue;
+    text-decoration: none;
+  }
+  .btnSeprate {
+    width: 97.5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+  }
+  
+  .signBtn {
+    font-size: var(--subHeading);
+    padding: 12px 15px;
+    background-color: #7367f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 13px;
+  }
+  
+  .icon-button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .microsoft-button {
+    margin-bottom: 10px;
+    border: 1px solid var(--color-mediumslateblue-200);  
+    border-radius: 3px;
+    padding: 7px 10px;
+    font-size: var(--subHeading);
+  }
+  
+  .icon-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .sendbox {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: var(--subHeading);
+    background-color: #7367f0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .input-label-domain {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field-domain {
+    width: 205px;
+    height: 30px;
+    padding: 10px;
+  }
+  
+  .company-domain-text {
+    width: 170px;
+    height: 37px;
+    position: absolute;
+    background-color: #6e62f4;
+    text-align: start;
+    color: #fff;
+    padding-top: 15px;
+    margin-right: 5px;
+  }
+  
+  .captcha-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .captcha-image {
+    margin-right: 10px;
+  }
+  
+  .input-field-captcha {
+    width: 145px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 6px;
+  }
+  
+  .input-group remember-forgot {
+    padding-top: 10px;
+  }
+  
+  .image1 {
+    width: 340px;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+  }
+  .loginForm1MainH1Header {
+    margin: 0px 0 15px 0;
+    text-align: center;
+    font-size: var(--mainHeading) !important;
+    color: #6D6976 !important;
+    font-weight: 600;
+  }
+  
+  .inputGroupForPasAndUser {
+    width: 92%;
+    outline: none;
+    border-radius: 3px;
+    /* border: 1px solid var(--color-mediumslateblue-200); */
+    font-size: var(--subHeading);
+    padding: 14px 10px !important;
+  }
+  .or-Image {
+    width: 100%;
+  }
+  @media (max-width: 992px) {
+    .innerSplitLoginContainer {
+      width: 85%;
+    }
+  }
+  @media (max-width: 768px) {
+    .leftSide1 {
+      display: none !important;
+      width: fit-content;
+      border: 1px solid red;
+    }
+    .rightSide1 {
+      margin-left: 20px;
+    }
+    .loginForm1 {
+      padding: 0px;
+    }
+    .innerSplitLoginContainer {
+      width: 90%;
+      justify-content: center;
+      box-shadow: none;
+    }
+    .or-Image {
+      width: 60%;
+    }
+  }
+  @media (max-width: 1101px) {
+    .or-Image {
+      width: 100%;
+    }
+  }
+  

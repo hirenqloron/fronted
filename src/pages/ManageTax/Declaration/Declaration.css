@@ -1,0 +1,140 @@
+.declaration{
+    font-family: Public Sans;
+font-size: var(--mainHeading);
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: #6D6976;
+margin-left: 15px;
+}
+.formselectlg {
+    width: 37%;
+    font-size: 16px;
+    padding: 10px;
+    border: 0.7px solid #7367f0;
+    border-radius: 4px;
+    color: #7367f0;
+    margin-left: 358px;
+  }
+  .formselectlg option {
+    margin-left: 10px;
+  }
+  
+.bulbImg{
+    margin: 13px 12px 0px 20px;
+}
+.importantCard{
+    font-family: Public Sans;
+    font-size: var(--subHeading);
+height: 190px;
+border-radius: 5px;
+background: #FFFFFF;
+box-shadow: 0px 5px 8px 0px #0000000D;
+
+}
+.alertWarning{
+height: 38px;
+border-radius: 3px;
+background: #9C92FC;
+color: #FFFFFF;
+}
+.decthreeboxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.decdatabox1{
+    width: 344px;
+    height: 71px;
+    border-radius: 5px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 8px 0px #0000000D;
+}
+.decdatabox1 p:first-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 13px;
+margin: 0;
+padding: 8px 0 0 15px;
+text-align: left;
+color: #6D6976;
+
+}
+.decdatabox1 p:nth-child(2){
+    font-family: Public Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin: 0;
+padding: 3px 0 0 16px;
+text-align: left;
+color: #7367F0;
+
+}
+.decdatabox1 p:last-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 13px;
+padding-right: 12px;
+margin: 0;
+text-align: right;
+color: #7367F0;
+
+}
+.decdatabox2{
+    width: 344px;
+    height: 71px;
+    border-radius: 5px;
+    margin-top: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 8px 0px #0000000D;
+}
+.decdatabox2 p:first-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 13px;
+margin: 0;
+padding: 8px 0 0 15px;
+text-align: left;
+color: #6D6976;
+
+}
+.decdatabox2 p:nth-child(2){
+    font-family: Public Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+margin: 0;
+padding: 3px 0 0 16px;
+text-align: left;
+color: #7367F0;
+
+}
+.manage-option1{
+    font-family: Public Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #6D6976;
+    padding: 16.5px 24.5px 16.5px 24.5px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  .manage-option1:hover{
+    background-color: rgba(47, 43, 61, 0.119);
+    color: #6D6976;
+  }
+  
+  .manage-option1.selected-option {
+    background: #BAB4F8;
+    color: #000000 !important;
+}
+  
+

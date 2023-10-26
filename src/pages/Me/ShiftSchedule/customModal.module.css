@@ -1,0 +1,87 @@
+:root {
+  --bg-color: #7367f0;
+  --border: #7367f0;
+  --family: "Public Sans";
+  --text-color: #fff;
+  --some-text-blue-color: #7367f0;
+  --some-text-white-bg-color: #fff;
+}
+
+.titleMain {
+  margin: 0px 0 20px 0;
+  font-size: 18px;
+}
+.titleMain input {
+  outline: none;
+  border: 1px solid var(--border);
+  font-family: var(--family) !important;
+  border-radius: 3px;
+  margin-top: 8px;
+  padding: 16.5px 0px 16.5px 12px;
+  font-size: 15px;
+}
+.dateDiv {
+  font-size: 18px;
+  margin-top: 14px;
+}
+.dateDiv input {
+  outline: none;
+  border: 1px solid var(--border);
+  font-family: Public Sans !important;
+  border-radius: 3px;
+  margin-top: 8px;
+  padding: 16.5px -1px 16.5px 12px;
+  font-size: 15px;
+}
+.formEvent {
+  font-family: var(--family);
+  padding: 10px 20px;
+}
+.addBtn {
+  background-color: var(--bg-color);
+  padding: 8px 17px;
+  border-style: none;
+  color: var(--text-color);
+  font-size: 14px;
+  border-radius: 3px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.cancelBtn {
+  padding: 8px 17px;
+  border-style: none;
+  border: 1px solid var(--border);
+  color: var(--some-text-blue-color);
+  background-color: var(--some-text-white-bg-color);
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.customHeader {
+  height: 44px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--family);
+  padding: 10px 17px;
+  margin-bottom: 10px;
+  /* border-radius: 0 !important; */
+}
+.mainH1 {
+  font-size: 18px;
+}
+.EventTitle {
+  width: 96%;
+}
+
+.inputTime {
+  width: 94%;
+  height: 33px;
+}
+/* .InputLabel {
+  border: 1px solid #7367f0 !important;
+} */
+/* .InputLabel:hover {
+  outline: none !important;
+  border-style: none !important;
+  border: 1px solid #7367f0 !important;
+} */

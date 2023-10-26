@@ -1,0 +1,21 @@
+.btn-color-1{
+    border-radius: 4.063px;
+    border: 1.167px solid #7367f0;
+    padding: 10px 15px;
+    color: #7367f0;
+    margin-right: 25px;
+}
+
+.btn-container4{
+    display: flex;
+  justify-content: flex-end;
+  margin-top: 300px;
+}
+
+.btn-color-2{
+    border-radius: 4.063px;
+  background: #7367f0;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}

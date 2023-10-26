@@ -1,0 +1,41 @@
+/* RichTextEditor.css */
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  
+  .cancel-button{
+    border-radius: 4.17px;
+   background-color: rgb(255, 255, 255);
+    color:black;
+    border: none;
+    padding: 10px 35px;
+    margin-left: 15px;
+    cursor: pointer;
+    ;
+    border: 1px  solid black;
+  }
+  
+  .save-button {
+    border-radius: 4.17px;
+background: #7367F0;
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    margin-left: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .save-button:hover,
+  .cancel-button:hover {
+    background-color:  #7367F0;
+  }
+  

@@ -1,0 +1,80 @@
+.mainContainerForGot {
+  width: 100%;
+  font-family: var(--font-public-sans);
+}
+.SortBximg {
+  padding: 10px 20px;
+}
+
+.SortBximg img {
+    width: 15%;
+    /* padding: 10px 20px; */
+}
+.mainCardContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 70vh;
+}
+.innerCardContainer {
+  box-shadow: 0px 8.29800033569336px 23.049999237060547px 0px #0000001a;
+  padding: 40px 60px;
+  border-radius: 6px;
+}
+.innerCardh1 {
+  font-size: 25px;
+  text-align: center;
+  color: #9100ff;
+}
+.paraForGot {
+  font-size: var(--mainHeading);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.paraForGotSec {
+    margin: 0 0 10px 0;
+}
+.emailInputContainer {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.emailIcon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 18px;
+}
+
+.emailInput {
+  padding-left: 35px;
+  width: 300px;
+  height: 20px;
+  border-radius: 3px;
+  font-size: var(--subHeading);
+  outline: none;
+}
+.signBtn {
+  width: 100%;
+  font-size: var(--subHeading);
+  padding: 12px 15px;
+  background-color: #7367f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.locarImgs {
+    width: 100%;
+    text-align: center;
+}
+
+.locarImgs img{
+    width: 20%;
+}
+.emailLink {
+    color: var(--color-mediumslateblue-200);
+}

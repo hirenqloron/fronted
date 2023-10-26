@@ -1,0 +1,226 @@
+.chatbox{
+margin-top: 12px;
+height: 700px;
+border-radius: 3px;
+display: flex;
+background: #F7F7F7;
+box-shadow: 2px 0px 7px 0px #0000001A;
+}
+.chatsidebar{
+width: 270px;
+height: 700px;
+border-radius: 3px, 0px, 0px, 0px;
+background:#FFFFFF;
+border: 1px solid #C9C9C9
+}
+.chatsearchbar{
+width: 270px;
+height: 62px;
+color: #C9C9C9;
+border-bottom: 0.8px solid #C9C9C9;
+display: flex;
+}
+.chatsearchbar>p{
+    margin-left:13px;
+}
+.leftheader {
+ width: 200px;
+height: 35px;
+border-radius: 19px;
+color: #C9C9C9;
+border: 0.7px solid #C9C9C9;
+margin-top: 15px;
+margin-left: 8px;
+display: flex;
+}
+.btnsearch {
+  border: none;
+  width: 50px;
+  border-radius: 30px;
+  background-color: white !important;
+}
+.inputsearch::placeholder {
+  color: #c9c9c9; /* Desired color for the placeholder text */
+}
+.inputsearch {
+  padding: 0px;
+  border: none;
+  border-radius: 20px;
+  line-height: 1.467;
+  font-size: 14px;
+  font-family: "Public Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  color: #c9c9c9;
+
+  outline: none;
+}
+.chatheading{
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+color: #887EF2;
+margin-left:13px;
+margin-top:15px;
+
+}
+.chatname1{
+    display: flex;
+    align-items: center;
+}
+.chatname1>p:first-child{
+    margin:13px 0 8px 13px;
+}
+.chatname1>p:last-child{
+  font-family: Public Sans;
+font-size: 8px;
+font-weight: 400;
+line-height: 9px;
+text-align: right;
+color: #C9C9C9;
+margin-left:58px;
+
+}
+.chatname1>div{
+  margin-bottom: 3px;
+    margin-left:10px;
+}
+.chatname1>div>p{
+    margin: 0;
+}
+.chatname1>div>p:first-child{
+    font-family: Public Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+color: #6D6976;
+
+}
+.chatname1>div>p:last-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 11px;
+text-align: left;
+color: #97949C;
+
+}
+.chatname2{
+    display: flex;
+    align-items: center;
+}
+.chatname2>p:first-child{
+    margin: 0 0 0 14px;
+}
+.chatname2>p:last-child{
+  font-family: Public Sans;
+font-size: 8px;
+font-weight: 400;
+line-height: 9px;
+text-align: right;
+color: #C9C9C9;
+margin-left:48px;
+
+}
+.chatname2>div{
+  margin-bottom: 3px;
+    margin-left:10px;
+}
+.chatname2>div>p{
+    margin: 0;
+}
+.chatname2>div>p:first-child{
+    font-family: Public Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+color: #6D6976;
+
+}
+.chatname2>div>p:last-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 11px;
+text-align: left;
+color: #97949C;
+
+}
+.contacts{
+  margin-top:10px;
+}
+.chatname3{
+    display: flex;
+    align-items: center;
+}
+.chatname3>p:first-child{
+    margin:3px 0 3px 13px;
+}
+.chatname3>p:last-child{
+  font-family: Public Sans;
+font-size: 8px;
+font-weight: 400;
+line-height: 9px;
+text-align: right;
+color: #C9C9C9;
+margin-left:58px;
+
+}
+.chatname3>div{
+  margin-bottom: 3px;
+    margin-left:10px;
+}
+.chatname3>div>p{
+    margin: 0;
+}
+.chatname3>div>p:first-child{
+    font-family: Public Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+color: #6D6976;
+
+}
+.chatname3>div>p:last-child{
+    font-family: Public Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 11px;
+text-align: left;
+color: #97949C;
+
+}
+.messaging{
+ margin-top:25%;
+  /* margin-left:33%; */
+  
+}
+.messaging>p>img{
+  margin-left:203%;
+}
+.messaging>div{
+  margin-left:192%;
+}
+.button{
+  width: 177px;
+height: 25px;
+ box-shadow: 0px 5px 8px 0px #0000001A;
+background: #FFFFFF;
+border-radius: 12px
+}
+.button>p{
+  font-family: Public Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+color: #6D6976;
+padding:4px 0 0 27px;
+/* background-color: white; */
+}
+

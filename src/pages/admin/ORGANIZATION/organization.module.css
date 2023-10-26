@@ -1,0 +1,21 @@
+.organizationApp {
+  font-family: var(--font-public-sans);
+}
+.selecionalOoption {
+  font-size: var(--subPara1) !important;
+}
+.selecionalOoption:hover {
+  /* background-color: rgba(47, 43, 61, 0.119); */
+  color: #6d6976;
+  background-color: #7367f0;
+  color: #ffffff;
+}
+.selecionalOoption.active-option {
+  background-color: #7367f0;
+  color: #ffffff !important;
+}
+
+.activeOption {
+  background-color: #7367f0;
+  color: #ffffff !important;
+}

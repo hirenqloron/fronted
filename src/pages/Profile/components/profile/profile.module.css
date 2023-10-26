@@ -1,0 +1,120 @@
+
+.profileMain{
+    display: flex;
+    max-height: 177px; 
+    margin:10px 0px; 
+}
+
+.profileImg{
+    height: 177px;
+    width:188.87px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    max-height: 176px;
+    font-family: var(--font-poppins);
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+   padding: 0rem 1rem;
+}
+.name{
+font-family: var(--font-poppins);
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.name h2{
+    font-size: 16px;
+    padding: 0 !important;
+    color: #343334 !important;
+    margin-left: 0px;
+}
+.contactInfo{
+    display: flex;
+    Line-height:17.49px;
+    align-items: center;
+    margin:5px 0px 12px 0px;
+    gap: 3rem;
+color:var(--color-mediumslateblue-200)
+}
+.contactInfo span{
+    display: flex;
+    align-items: center;
+    gap:.7rem;
+}
+.contactInfo h5{
+    font-size: var(--font-size-xs);
+  margin:0px;
+}
+.companyInfo{
+    padding:10px 0px 10px 10px;
+    display:flex;
+    gap: 48px;
+}
+.companyInfo span{
+    gap: 0px;
+}
+.companyInfo h5{
+    margin: 0px;
+    color: #6D6976;
+font-size: 10px;
+line-height: 15.35px;
+}
+.companyInfo h4{
+    color:#343334;
+    margin: 0px;
+    font-size:12px ;
+    line-height: 18px;
+}
+.redirectionDiv{
+    padding:10px 0px 10px 10px;
+    display:flex;
+    gap: 18px;
+}
+.redirectionDiv h5{
+    color: #B6B1BF;
+    margin: 0px;
+    font-size:12px ;
+    line-height: 18px;
+}
+.Button1{
+    cursor: pointer;
+}
+.Button1 h5:hover{
+    color :black !important;
+}
+.activeButton1{
+    position: relative;
+      color: #7367F0;
+    padding-bottom: 10px;
+    text-align: center;   
+    cursor: pointer; 
+  }
+
+  
+  .activeButton1 h5 {
+    color: #7367F0 !important;
+  }
+  
+  .activeButton1::after {
+    content: "";
+    position: absolute;
+    cursor: pointer;
+    left: 50%; /* Position it in the middle horizontally */
+    bottom: 0;
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #7367F0; /* Adjust the color as needed */
+  }

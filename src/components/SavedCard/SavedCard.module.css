@@ -1,0 +1,144 @@
+.one{
+  display: flex;
+  font-family: Public Sans !important;
+  flex-direction: column;
+  gap:15px;
+  width: 100%;
+}
+.heading{
+  margin-bottom: 0px;
+color:#6D6976;
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  background-color: #f7f7f7;
+  padding:20px 15px 15px 20px;
+  border-radius: 8px;
+}
+
+.icon {
+  display: flex;
+}
+.c1 {
+  width: 28.46px;
+  height: 27px;
+  left: 942.78px;
+  top: 652px;
+  border-radius: 100%;
+  background: #f89e1c;
+  opacity: 0.6;
+  z-index: 1;
+}
+.c2 {
+  border-radius: 100%;
+  width: 28.46px;
+  height: 27px;
+  left: 926px;
+  top: 652px;
+  background: #ea001b;
+}
+.headDiv {
+  display: flex;
+  gap: 30px;
+}
+.headDiv h1 {
+  color: #c9c9c9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.headDiv p {
+  padding: 5.17px 12.4px 5.17px 12.4px;
+  background-color: #e1e0f6;
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7367f0;
+  border-radius: 2.07px;
+}
+.cardNo {
+  color: #6d6976;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height:100%;
+}
+.btnDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #7367f0;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.btn1 {
+  background-color: #e1e0f6;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  color: #7367f0;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.btn2 {
+  color: #c4c5c9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #f1f1f2;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+  outline: none;
+  border: none;
+}
+.expiry{
+color:#C9C9C9;
+font-size: 10px;
+font-weight: 500;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+}

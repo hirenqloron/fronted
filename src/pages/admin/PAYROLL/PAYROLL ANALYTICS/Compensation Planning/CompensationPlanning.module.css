@@ -1,0 +1,117 @@
+.MainCompensationPlanning {
+  margin: 15px 0;
+}
+.innerCompensationpart h1 {
+  margin: 0px;
+  font-size: var(--mainHeading);
+  color: var(--color-dimgray-100);
+}
+.MainCharts {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px 0px #0000001a;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 14px 24px;
+}
+.MainCharts h1 {
+  font-size: var(--subHeading);
+  color: var(--color-dimgray-100);
+  margin: 0px;
+}
+.mainAmountCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innermainAmountCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.amountCARD {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 35px;
+  color: #ffffff;
+}
+.amountCARD:nth-child(1) {
+  background-color: #2bd35a;
+}
+.amountCARD:nth-child(2) {
+  background-color: #FBC02D;
+  margin: 0 20px;
+}
+.amountCARD:nth-child(3) {
+  background-color: #7367F0;
+}
+.circuleCard {
+  height: 100%;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  padding: 25px 10px;
+  background-color: transparent;
+  box-shadow: 5px 1px 6px 0px #00000033;
+  font-size: var(--subHeading);
+}
+
+.NonecirculeCard {
+  padding: 0 15px;
+}
+.NonecirculeCard p{ 
+  color: #ffffff;
+  margin: 5px 0;
+  font-weight: 600;
+  font-size: var(--subHeading);
+}
+.NonecirculeCard h1{ 
+  color: #ffffff;
+  margin: 5px 0;
+  font-size: var(--subPara1);
+}
+.theading {
+  background-color: #e1eafa;
+}
+.theading th {
+  padding: 15px 14px;
+  color: #7367f0;
+  text-align: start;
+}
+
+.tData {
+  text-align: start;
+  cursor: context-menu;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+  /* box-shadow: 0px 5px 8px 0px #0000001A; */
+}
+.tData td {
+  padding: 15px 14px;
+}
+.tData:hover {
+  background-color: #7b73731c !important;
+}
+.table_Container {
+  /* box-shadow: 0px 5px 5px 0px #0000001a; */
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+.newJoinyySomethingEmployee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+}
+.innernewJoinyySomethingEmployee {
+  display: flex;
+  justify-content: start flex;
+  align-items: center;
+}
+.innernewJoinyySomethingEmployee h3 {
+  margin: 0px;
+  font-size: var(--subHeading);
+  margin-right: 20px;
+}
+.innernewJoinyySomethingEmployee img {
+  width: 10px;
+}

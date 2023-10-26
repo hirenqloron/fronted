@@ -1,0 +1,101 @@
+
+.translucentDiv {
+    background-color: rgba(122, 63, 239, 0.219); /* Adjust the alpha value (0.5 in this case) for the desired transparency */
+    padding: 20px;
+    width: 300px;
+    border:none;
+}
+
+.card{
+    background-color:rgba(122, 63, 239, 0.219) !important; 
+    font-family: var(--font-poppins);
+    display: flex;
+    flex-direction: column;
+  gap: 20px;
+    max-width: 392px;
+    min-height: 577px;
+    align-items: center;
+    padding: 35px 0px 0px 0px;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.card div h2{
+ 
+font-size: 24px !important;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0px !important;
+}
+.card div h3{
+    font-family: Public Sans !important;
+font-size: 18px !important;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color:#6D6976;
+
+margin: 0px !important;
+}
+
+.card div h4{
+    font-family: Public Sans !important;
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+      color:#6D6976;
+      margin: 0px !important;
+
+}
+
+
+.d2Main{
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px;
+    margin-top: 15px;
+}
+.d2Main div{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+      align-items: flex-start !important;
+}
+.d2Main div p{
+margin: 0px !important;
+font-family: Public Sans !important;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 10px;
+}
+.d2Main div h4{  margin: 0px !important;
+    font-family: Public Sans !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#000000;
+    }
+    .d2Main div h5{  margin: 0px !important;
+    font-family: Public Sans !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6D6976;
+    padding-left: 5px;
+    }

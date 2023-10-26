@@ -1,0 +1,39 @@
+.wallActivity {
+    margin: 15px 0px;
+    /* width: 55%; */
+    padding: 8px 20px;
+    font-family: var(--font-poppins);
+  }
+
+  .main{
+    display: flex;
+    justify-content: space-around;
+    margin:0px;
+
+  }
+  .contentDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentDiv h1{
+    font-size: 24.97px;
+    color:#6D6976;
+    line-height: 37.45px;
+    font-weight: 400;
+    margin-bottom: 8px !important;
+  }
+  .contentDiv h2{
+font-weight: 500;
+font-size: 18.51px;
+line-height: 27.76px;
+color: #C9C9C9;
+margin-top: 0px !important;
+  }
+  .contentDiv span{
+    font-weight: 600;
+    font-size: 18.51px;
+    line-height: 27.76px;
+    color: #7367F0;
+  }

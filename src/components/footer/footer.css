@@ -1,0 +1,14 @@
+.footer-main-container {
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    text-align: left;
+    padding-left: 20px;
+}
+.footer-text {
+    font-weight: 400 !important;
+    line-height: 1.467;
+    color: rgba(47, 43, 61, 0.618);
+}
+.footer-text a{
+    color: rgb(115, 103, 240) !important;
+}

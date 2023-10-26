@@ -1,0 +1,103 @@
+.assets-container {
+  height: 50px;
+}
+
+.asse-t {
+  display: inline-flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.assign-assets {
+  font-family: Poppins !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+
+.Assets1 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px;
+}
+
+.ass-req {
+  color: #6d6976;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10%;
+  margin-left: 15px;
+}
+
+.assets2 {
+  height: 200px;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.look-like {
+  color: #7367f0;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.get-touc {
+  color: #b2aed6;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.active-btn9 {
+    display:flex !important;
+    padding-bottom: 10px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    font-family: Poppins !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active-button3 {
+  background-color: #7367f0;
+
+  color: white;
+  display: inline-flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+
+  font-family: Poppins !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* display: flex; */
+}
+
+.rest-comtainer {
+  margin-top: 30px;
+}

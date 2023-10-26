@@ -1,0 +1,118 @@
+.emailbox {
+  /* width: 1063px; */
+  height: 996px;
+  border-radius: 3px;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  background: #ffffff;
+  margin-top: 10px;
+}
+.sidebaremail {
+  padding:5px;
+  border-right: 1px solid #c9c9c9;
+  /* border: 0px, 1px, 0px, 0px; */
+}
+.sidebaremail>.firstlistdata>li:active{
+    border-left:0.8px solid #7367f0;
+    color:#7367f0;
+}
+.emailbox > div>.sidebaremail > div > p {
+  width: 134px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 4px;
+  background: #7367f0;
+  color: #ffffff;
+}
+.composediv {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+.firstlistdata {
+  margin-top: 40px;
+  padding:0 0 0 3px;
+}
+.labels {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #c9c9c9;
+  margin-left: 35px;
+  margin-top: 40px;
+  margin-bottom: 23px;
+}
+.firstlistdata > li {
+  display: flex;
+  position: relative;
+  right: 10px;
+  font-family: Public Sans;
+  color: #6d6976;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.firstlistdata > li > a{
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 12px;
+  line-height: 18px;
+ text-decoration: none;
+  color: #6D6976;
+  
+}
+.activeLink{
+  color:#7367f0;
+  border-left:4px solid  #7367f0;
+}
+li.activeLink{
+color: #7367f0;
+}
+.spantag{
+  margin-left:10px;
+}
+.secondlistdata > li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.secondlistdata > li > p {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #6d6976;
+  margin-bottom: 15px;
+  margin-left: 18px;
+}
+ 
+.mailflex{
+    display: flex;
+}
+.sidebarLink {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebarLink:hover {
+  background-color: #f0f0f0; /* Add a hover effect if desired */
+}
+
+
+
+/* ... other styles for your sidebar ... */
+
+ 
+ 
+
+  
+
+
+ 
+

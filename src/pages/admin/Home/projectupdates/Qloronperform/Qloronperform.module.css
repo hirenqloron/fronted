@@ -1,0 +1,98 @@
+.productbox1{
+    width: 100%;
+    position: relative; /* Add this to the parent container */
+
+/* height: 302px; */
+border: Mixed solid #C9C9C9;
+background: white;
+padding-bottom: 15px;
+margin-bottom: 10px;
+
+}
+.projecttitle{
+    font-family: Public Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+/* letter-spacing: 0em; */
+padding: 10px 0 0 0;
+text-align: left;
+margin-left: 20px;
+color:black
+}
+.projecthr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 0.8px solid #c9c9c9;
+}
+.projecthr>p{
+    margin-top: 6px;
+}
+.projecthr>p:nth-child(2){
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+margin-top: 0;
+text-align: left;
+color: black;
+}
+.projecthr>p:nth-child(3){
+    font-family: Public Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+margin-top: 0;
+    text-align: left;
+    color: #6D6976;
+    
+}
+.projectdata{
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 500;
+margin-left: 20px;
+margin-top: 15px;
+line-height: 28px;
+/* letter-spacing: 0em; */
+text-align: left;
+color: #6D6976;
+
+}
+.readmore{
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+text-align: right;
+color: #7367F0;
+
+}
+.readmore>p{
+    margin-bottom: 0;
+    margin-right: 9px;
+}
+.questionmark{
+      position: fixed; /* Change to fixed position */
+  bottom: 20px; /* Adjust bottom value to your preference */
+  right: 20px; /* Adjust right value to your preference */
+
+    width: 48px;
+height: 45px;
+gap: 2.03px;
+background: #7367F0;
+color:white;
+float:right;
+border-radius:5px;
+z-index: 1; /* Set an appropriate z-index */
+
+}
+.questionmark>p{
+    margin: 0;
+    text-align: center;
+    padding:6px;
+    font-size: 30px;
+}

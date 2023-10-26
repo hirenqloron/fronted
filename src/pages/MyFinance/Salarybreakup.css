@@ -1,0 +1,215 @@
+.salarybreakup {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.paygroup {
+  font-family: Public Sans;
+  font-size: var(--subPara1);
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  margin-top: 0;
+  margin-left: 32px;
+  color: #000000;
+}
+.versionhistory {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 19px;
+  text-align: left;
+  color: #6d6976;
+}
+.salarybreakup2 {
+  margin-left: 547px;
+}
+.currentsalary {
+  font-family: Public Sans;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 32px;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.previoussalary {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #c5bfbf;
+}
+.salarybreakuptable {
+  width: 678px;
+  height: 567px;
+
+  border-radius: 3px;
+  background: #ffffff;
+  border: 0.8px solid #c9c9c9;
+}
+.salarybreakupdata {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 11px 62px 7px 11px;
+  border-right: 0.8px solid #c9c9c9;
+  text-align: left;
+  color: #6d6976;
+}
+.salarybrerowdata {
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.salarybpdata {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 9px 0 9px 9px;
+  color: #7367f0;
+  border: 0.8px solid #c9c9c9;
+  background: #e1eafa;
+}
+.salarybreakuptable > tr:last-child > td {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #7367f0;
+  border: 0.8px solid #c9c9c9;
+  background: #e1eafa;
+}
+.salarysidetable {
+  width: 322px;
+  height: 94px;
+  margin-left: 313px;
+  background: #e1eafa;
+}
+.sidebysidetable {
+  display: flex;
+  margin-left: 32px;
+}
+.salarysidetable p:first-child {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-left: 10px;
+  text-align: left;
+  color: #6d6976;
+}
+.salarysidetable p:nth-child(2) {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  margin-left: 10px;
+  text-align: left;
+  color: #7367f0;
+}
+.salarysidetable p:last-child {
+  width: 76px;
+  height: 9px;
+  padding: 2px;
+  border-radius: 2.26px;
+  background: #7367f0;
+  color: #ffffff;
+  font-family: Public Sans;
+  font-size: 8px;
+  margin-left: 10px;
+  font-weight: 400;
+  line-height: 9px;
+  text-align: center;
+}
+.salarybptable2 {
+  width: 678px;
+  height: 169px;
+  margin-top: 12px;
+  border-radius: 3px;
+  margin-left: 32px;
+  border-top: 0.8px solid #c9c9c9;
+  border-left: 0.8px solid #c9c9c9;
+
+  background: #ffffff;
+}
+
+.table2head > th {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: #7367f0;
+  background: #e1eafa;
+  border-right: 0.8px solid #c9c9c9;
+  border-bottom: 0.8px solid #c9c9c9;
+
+  padding: 10px;
+}
+.table2head > th:first-child {
+  width: 43%;
+}
+.table2head > tr > td {
+  border: 0.8px solid #c9c9c9;
+}
+.salarybptable2 > table > tr:last-child > td {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #7367f0;
+  background: #e1eafa;
+}
+.salarybptable2 > table > tr > td {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  padding: 11px;
+  border-right: 0.8px solid #c9c9c9;
+  border-bottom: 0.8px solid #c9c9c9;
+  text-align: left;
+  color: #6d6976;
+}
+.salarybplasttable {
+  width: 678px;
+  height: 44px;
+  display: flex;
+  border-radius: 3px;
+  margin-top: 12px;
+  margin-left: 32px;
+  margin-bottom: 12px;
+  border: 0.8px solid #c9c9c9;
+  background: #e1eafa;
+  color: #7367f0;
+}
+.salarybplasttable p:first-child {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 13px;
+  line-height: 14px;
+  text-align: left;
+}
+.salarybplasttable p:nth-child(2) {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 213px;
+  line-height: 16px;
+  text-align: left;
+}
+.salarybplasttable p:last-child {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 109px;
+  text-align: left;
+}

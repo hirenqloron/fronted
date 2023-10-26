@@ -1,0 +1,96 @@
+ 
+ 
+.tablerowdata{
+    border-bottom: 0.8px solid #c9c9c9;
+}
+.tablerowdata>td{
+    /* border: Mixed solid #C9C9C9; */
+    background: #D9D9D93B;
+    padding: 5px;
+    font-family: Public Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 15px;
+ 
+
+}
+ 
+.emailtable>tbody>tr:hover{
+box-shadow: 0px 5px 8px 0px #00000040;
+/* border: Mixed solid #C9C9C9; */
+}
+.starimage{
+    font-size:20px;
+}
+.emailtable{
+ 
+    border-collapse: collapse;
+}
+/* .emailicons.hovered {
+  display: flex; /* Show icons on hover \
+  justify-content: space-between;
+  align-items: center;
+  width: 60px; /* Adjust the width as needed  
+  opacity: 1;
+} */
+
+.emailicons {
+ 
+  display: flex;
+ align-items: center;
+ 
+  /* padding: 10px; */
+  font-size: 21px;
+  cursor: pointer;
+}
+.emailicons>p{
+  margin:0;
+}
+.emailicons>p:first-child{
+  margin-left:-10px;
+}
+.emailicons>p:nth-child(2){
+  margin-left:10px;
+  margin-right:10px
+}
+.sidebarLink {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebarLink:hover {
+  background-color: #f0f0f0; /* Add a hover effect if desired */
+}
+
+/* Inbox.module.css */
+/* Define classes for dot colors */
+.dot-orange {
+  color: orange;
+}
+
+.dot-red {
+  color: red;
+}
+
+.dot-purple {
+  color: purple;
+}
+
+.dot-green {
+  color: green;
+}
+
+
+/* ... other styles for your sidebar ... */
+
+ 
+ 
+
+  
+
+
+ 
+

@@ -1,0 +1,197 @@
+.mainAnalyticsSec {
+  margin: 20px 0;
+}
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerContainer {
+  min-width: 260px;
+  background-color: #ffffff;
+  box-shadow: 0px 5.238095283508301px 5.238095283508301px 0px #0000001a;
+  padding: 15px 14px 15px 20px;
+  border-radius: 3px;
+}
+.card,
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgDib {
+  width: 35px;
+  height: 35px;
+  background-color: #00ff4843;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgDib img {
+  width: 75%;
+}
+.paraCardDetails {
+  color: var(--color-mediumslateblue-200);
+  font-size: 13px;
+}
+.junpara {
+  margin: 0px;
+  color: #6d6976;
+  font-size: var(--subPara1);
+}
+.inrIncm h1 {
+  margin: 5px 2px;
+  font-size: 26px;
+}
+.mainCompensationDistribution {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.CompensationDistribution {
+  background-color: #ffffff;
+  box-shadow: 0px 5.238095283508301px 5.238095283508301px 0px #0000001a;
+}
+.CompensationDistribution h1 {
+  font-size: var(--mainHeading);
+  color: var(--color-dimgray-100);
+  padding: 10px 25px;
+}
+.Chart {
+  width: 55%;
+  /* border: 1px solid red; */
+}
+.reactChrt {
+  width: 100%;
+}
+.mainCompensation {
+  margin: 20px 0;
+}
+.compensation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.compensation h1 {
+  font-size: var(--mainHeading);
+  color: #6d6976;
+}
+.CompensationDistributionDisplay {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 40px 0px;
+}
+.tetforCompensationDistributionDisplay h3 {
+  color: #6d6976;
+  margin: 0px;
+  font-size: var(--mainHeading);
+}
+.tetforCompensationDistributionDisplay p {
+  margin: 5px 0px;
+  font-size: var(--subHeading);
+}
+.mainSnapsot h1 {
+  font-size: var(--mainHeading);
+  color: var(--color-dimgray-100);
+  font-weight: 500;
+  margin-top: 25px;
+}
+.mainSnapsot p {
+  font-size: var(--subHeading);
+  color: var(--color-darkgray-200);
+  font-weight: 300;
+}
+.innerContainerSnapSot {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.containerSnapSot {
+  margin-right: 70px;
+}
+.containerSnapSot .divequs {
+  color: var(--color-mediumslateblue-200);
+  cursor: pointer;
+}
+.salarEmployeesy {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 5.238095283508301px 5.238095283508301px 0px #0000001a;
+}
+.plannedmonths h1 {
+  padding-left: 0px !important;
+}
+.salarEmployeesy h1, .plannedmonths h1 {
+  margin: 0;
+  font-size: var(--mainHeading);
+  padding: 10px 24px;
+  margin-top: 25px;
+}
+.lftBtns {
+  border: 1px solid var(--color-mediumslateblue-200);
+  padding: 9px 25px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: var(--color-dimgray-100);
+}
+.viweLocation {
+  padding: 10px 24px;
+}
+.salaryviee {
+  border: none;
+  padding: 10px 24px;
+  border-left: 1px solid var(--color-dimgray-100);
+}
+.RftBtns {
+  background-color :var(--color-mediumslateblue-200);
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2px;
+  margin: 0 0 0 20px;
+}
+.salaryANUSleft {
+  width: 60%;
+}
+
+
+.salaryANUSleft h2 {
+  margin: 0;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.salaryANUSleftExph11 h1{
+  font-size: var(--subPara1);
+  color: var(--color-dimgray-100);
+  font-weight: 300;
+  padding: 0px;
+}
+.slryh11 {
+  margin-right: 60px;
+}
+.slryh11 h1 {
+  padding: 10px 0;
+  font-size: var(--subPara1);
+  font-weight: 300;
+  color: var(--color-dimgray-100);
+}
+.ysd {
+  border: none;
+  border-left: 3px solid #FF1515;
+  padding: 5px;
+  margin: 5px 0;
+}
+.salaryviee {
+  display: flex;
+  justify-content: space-between;
+}
+.salaryANUSrrightttt h2 {
+  font-size: var(--subHeading);
+  color:  var(--color-dimgray-100);
+  font-weight: 500;
+  margin: 0 0 25px 0;
+}

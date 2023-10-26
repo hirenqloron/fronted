@@ -1,0 +1,244 @@
+.main-Shift-Schedule {
+  margin: 30px 0px;
+  /* border: 1px solid red; */
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  border-radius: 3px;
+}
+.main-Shift-Schedule .inner-Shift-Schedule {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+.main-Shift-Schedule .inner-Shift-Schedule .letf-div-inner-Shift-Schedule {
+  width: 26%;
+  padding: 20px 0;
+}
+.main-Shift-Schedule .inner-Shift-Schedule .rigth-div-inner-Shift-Schedule {
+  width: 74%;
+  margin-right: 20px;
+  border-left: 1px solid #c9c9c9;
+  padding: 20px 0;
+}
+.plus-add-btn-sift {
+  text-align: center;
+  padding: 0 0 12px 0;
+}
+.plus-add-btn-sift .add-btn-sift {
+  padding: 12px 23px;
+  background-color: #7367f0;
+  color: #ffffff;
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 3px;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.custom-datepicker {
+  /*  */
+}
+.css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {
+  color: #6d6976 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 17px !important;
+}
+.css-1jsy6pn-MuiButtonBase-root-MuiPickersDay-root {
+  background-color: #7367f0 !important;
+}
+.css-1jsy6pn-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  /* background: #7267f054 !important; */
+  background-color: #7367f0 !important;
+  border: none !important;
+}
+.MuiButtonBase-root
+  .MuiPickersDay-root
+  .MuiPickersDay-dayWithMargin
+  .css-qa7bje-MuiButtonBase-root-MuiPickersDay-root {
+  border: none !important;
+  background-color: #7367f0 !important;
+}
+.css-1jsy6pn-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  border: none !important;
+  background-color: rgba(25, 118, 210, 0.12) !important;
+}
+.css-12mkn7b-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton,
+.css-sf5j28-MuiButtonBase-root-MuiIconButton-root-MuiPickersCalendarHeader-switchViewButton {
+  display: none !important;
+}
+.css-1beqopj-MuiPickersYear-yearButton.Mui-selected {
+  background-color: #7367f0 !important;
+}
+.css-qa7bje-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  border: none !important;
+  color: #fff !important;
+  background-color: #7367f0 !important;
+}
+.css-nk89i7-MuiPickersCalendarHeader-root {
+  position: relative !important;
+  width: 75%;
+  margin: 0 auto !important;
+  /* border: 1px solid red; */
+}
+/* .css-cyfsxc-MuiPickersCalendarHeader-labelContainer {
+  margin-left: 20% !important;
+  width: 100%;
+  border: 1px solid red;
+} */
+/* #grid-label {
+  text-align: center !important;
+} */
+/* .css-kg9q0s-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button:nth-child(
+    1
+  ) {
+  position: absolute !important;
+  left: 2% !important;
+  background-color: #6d69761d;
+} */
+/* 
+.css-1nkg345-MuiButtonBase-root-MuiIconButton-root-MuiPickersArrowSwitcher-button {
+  background-color: #6d697617 !important;
+  position: absolute !important;
+  right: 2% !important;
+} */
+
+.calendar-filter {
+  /* border: 1px solid red; */
+  padding: 0 15px 15px 15px;
+}
+
+.calendar-filter h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #2f2b3dad;
+  margin: 0px 10px 10px 10px;
+}
+
+.label-input-text-filter {
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 19px;
+  /* color: #7367f0; */
+  color: rgba(47, 43, 61, 0.618);
+  cursor: pointer;
+}
+/* .check-div-box {
+  margin: 15px 0;
+} */
+.checkbox-filter {
+  width: 20px;
+  border: 1px solid red !important;
+  background-color: red;
+  cursor: pointer;
+}
+/* 
+.fc .fc-button {
+  border-radius: 0px !important; for all buttons
+} */
+
+.fc-direction-ltr .fc-button-group > .fc-button {
+  padding: 10px 20px;
+  background-color: #dedbfb;
+  border: none;
+  color: #7367f0;
+  box-shadow: none !important;
+}
+.fc-button-active {
+  background-color: #dedbfb !important;
+  color: "red";
+}
+.fc-direction-ltr .fc-button-group > .fc-button[title="Previous week"] {
+  background-color: #fff !important;
+  color: #7367f0 !important;
+}
+.fc-direction-ltr .fc-button-group > .fc-button[title="Next week"] {
+  background-color: #fff !important;
+  color: #7367f0 !important;
+}
+.fc-direction-ltr .fc-button-group > .fc-button[title="Next month"] {
+  background-color: #fff !important;
+  color: #7367f0 !important;
+}
+.fc-direction-ltr .fc-button-group > .fc-button[title="Previous day"] {
+  background-color: #fff !important;
+  color: #7367f0 !important;
+}
+.fc-direction-ltr .fc-button-group > .fc-button[title="Next day"] {
+  background-color: #fff !important;
+  color: #7367f0 !important;
+}
+/* .fc-direction-ltr .fc-button-group > .fc-button:hover {
+  background-color: #cac4ff !important; for right arrow btns
+  color: #7367f0 !important;
+} */
+.fc-timeGridWeek-button .fc-button .fc-button-primary {
+  border: 1px solid #7367f0 !important;
+  box-shadow: none !important;
+  margin-right: 10px !important;
+}
+
+.fc-direction-ltr
+  .fc-button-group
+  > .fc-button:not(:last-child)[title="Previous month"] {
+  padding: 10px 20px !important;
+  background-color: #fff !important;
+  color: #7367f0;
+  box-shadow: none !important;
+  border-radius: 0px;
+}
+/* .fc-direction-ltr .fc-button-group > .fc-button:not(:last-child):hover {
+  background-color: #cac4ff !important;  for left arrow btn
+} */
+.fc .fc-button-primary[title="This month"],
+.fc .fc-button-primary[title="This week"],
+.fc .fc-button-primary[title="Today"] {
+  background-color: #dedbfb !important;
+  border: none !important;
+  color: #7367f0 !important;
+  margin-left: 20px;
+  padding: 10px 20px !important;
+  cursor: pointer;
+  box-shadow: none !important;
+  position: absolute;
+  left: 74.31%;
+  border-radius: 0.25em 0 0 0.25em;
+  margin-top: 1px;
+}
+.fc .fc-button-primary[title="This month"]:hover,
+.fc .fc-button-primary[title="This week"]:hover,
+.fc .fc-button-primary[title="Today"]:hover {
+  background-color: #cac4ff !important;
+}
+.fc-next-button .fc-button .fc-button-primary[title="Next month"] {
+  background-color: #fff !important;
+}
+.fc .fc-button-primary:hover {
+  border: none !important;
+}
+.fc .fc-button-primary:not(:disabled).fc-button-active[title="month view"] {
+  color: #7367f0;
+  border-radius: 0px !important;
+}
+/* .fc-toolbar-chunk {
+  margin-left: -242px;
+} */
+#fc-dom-1 {
+  font-size: 1rem;
+}
+.fc .fc-button-primary:not(:disabled):active {
+  background-color: #cac4ff !important;
+  color: #7367f0 !important;
+  border-radius: 0px !important;
+}
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  color: #7367f0 !important;
+}
+/* .css-4ggly9.Mui-selected {
+  background-color: #7367f0 !important;
+} */

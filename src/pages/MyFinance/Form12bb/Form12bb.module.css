@@ -1,0 +1,70 @@
+.form12bbhead{
+    font-family: Public Sans;
+font-size: var(--mainHeading);
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #6D6976;
+
+}
+.form12bbdata{
+    font-family: Public Sans;
+font-size: var(--subHeading);
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #97949C;
+
+}
+.form12bbsubdata{
+    /* width: 1063px; */
+height: 119px;
+border-radius: 3px;
+background: #FFFFFF;
+box-shadow: 0px 5px 8px 0px #0000001A;
+
+
+}
+.form12bcontent{
+    font-family: Public Sans;
+font-size: var(--subHeading);
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+padding-top: 20px;
+margin-left: 20px;
+color: #6D6976;
+
+}
+.selectitem{
+    display: flex;
+    align-items: center;
+}
+   .formselectlg {
+    width: 20%;
+    font-size: var(--subHeading);
+    padding: 10px;
+    border: 0.7px solid #7367f0;
+    border-radius: 4px;
+    color: #7367f0;
+    margin-bottom: 9px;
+    margin-left: 20px;
+  }
+  .formselectlg option {
+    margin-left: 10px;
+  }
+  .form12button{
+    width: 157px;
+padding: 12px 10px 12px 10px;
+border-radius: 3px;
+background: #7367F0;
+font-family: Public Sans;
+font-size: var(--subHeading);
+font-weight: 400;
+line-height: 16px;
+margin-top: 6px;
+margin-left: 10px;
+text-align: center;
+color: #FFFFFF;
+  }
+  

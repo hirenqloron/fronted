@@ -1,0 +1,199 @@
+.amountinr p:last-child {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #7367f0;
+}
+.amountinr1 p:last-child {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #7367f0;
+}
+.leftheader {
+  width: 92%;
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left: 154px;
+  /* background-color: #F6F5F8; */
+  border-left: 0.8px solid #c9c9c9;
+  border-top: 0.8px solid #c9c9c9;
+  border-bottom: 0.8px solid #c9c9c9;
+  border-right: 0px solid #c9c9c9;
+}
+.btnsearch {
+  border: none;
+  width: 50px;
+  background-color: white !important;
+}
+.inputsearch::placeholder {
+  color: #c9c9c9; /* Desired color for the placeholder text */
+}
+.inputsearch {
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  border: none;
+  line-height: 1.467;
+  font-size: 14px;
+  font-family: "Public Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  color: #c9c9c9;
+
+  outline: none;
+}
+
+.searchanddropdown {
+  display: flex;
+}
+.formselectlg {
+  width: 309%;
+  padding: 10px;
+  height: 44px;
+  border-right: 0.8px solid #c9c9c9;
+  border-top: 0.8px solid #c9c9c9;
+  border-bottom: 0.8px solid #c9c9c9;
+  border-left: 0px solid #c9c9c9;
+  color: #6d6976;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+}
+.amountinr {
+  margin-left: 14px;
+}
+.amountinr1 {
+  margin-left: 60px;
+}
+.taxsavinginrdata {
+  display: flex;
+}
+.amountinr p:first-child {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  color: #6d6976;
+}
+.amountinr1 p:first-child {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  color: #6d6976;
+}
+.taxsavingbox {
+  /* width: 1063px; */
+  height: 1178px;
+  border-radius: 3px;
+  border: 0.8px solid #c9c9c9;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  background: #ffffff;
+}
+.taxalloheading p:first-child {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #6d6976;
+}
+.questionimg {
+  margin-left: 5px;
+}
+.taxalloheading p:last-child {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #97949c;
+}
+.headerdata {
+  background: #7367f0;
+}
+.tableidheader {
+  color: #ffffff;
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+}
+.headerdata,.deducrowdata {
+  border-bottom: 0.8px solid #c9c9c9;
+}
+.tablededuction,
+.deductiondata {
+  border-right: 0.8px solid #c9c9c9;
+}
+/* .tableData>.deducrowdata>.deductiondata>.declarationdata:first-child{
+    color:#6d6976;
+    font-family: Public Sans;
+font-size: 11px;
+font-weight: 500;
+line-height: 13px;
+
+} */
+.sectiondata {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  color: #6d6976;
+}
+.editbox {
+  height: 500px;
+}
+.inputclass input {
+  margin-top: 10px;
+}
+.declarationdata {
+  font-family: Public Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  color: #c9c9c9;
+}
+.tablededuction {
+  padding: 11px;
+}
+.deductiondata {
+  padding: 5px 0 0 12px;
+}
+.paginationpart {
+  display: flex;
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 9px;
+  color: #6d6976;
+  text-align: center;
+}
+.paginationpart p:first-child {
+  margin-left: 82%;
+}
+.paginationpart p:last-child {
+  margin-left: 77px;
+}
+.inramount{
+  font-family: Public Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 13px;
+text-align: center;
+color: #6D6976;
+
+}

@@ -1,0 +1,185 @@
+.payslip {
+  width: 381px;
+  height: 294px;
+  margin-top: 14px;
+  border-radius: 3px;
+  background: #ffffff;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+}
+.slippay {
+  font-family: Public Sans;
+  font-size: var(--mainHeading);
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 0px 0 0 21px;
+  color: #7367f0;
+}
+.slippay>p:first-child{
+  margin-bottom: 0;
+}
+.slippay>p:last-child{
+  margin-bottom: 0;
+}
+.slipinfo>p{
+  margin-top: 5px;
+  margin-bottom: 43px;
+}
+.downarrow {
+  margin-left: 6px;
+}
+.downarrow1 {
+  margin-left:29px;
+}
+.slipinfo {
+  font-family: Public Sans;
+  font-size: var(--subPara2);
+  font-weight: 400;
+  line-height: 12px;
+  padding: 0 8px 0 20px;
+  color: #6d6976;
+}
+.form-select-lg {
+  margin-left: 20px;
+  font-size: var(--subHeading);
+  padding: 10px;
+}
+.form-select {
+  width: 68%;
+  border: 0.7px solid #7367f0;
+  border-radius: 3px;
+  color: #7367f0;
+}
+.form-select-lg option {
+  padding: 14px;
+}
+.payslipdata {
+  display: flex;
+}
+.junepayslip {
+  width: 217px;
+  height: 38px;
+  padding: 1px 23px 1px 23px;
+  border-radius: 3px;
+  margin: 16px 0 0 407px;
+  border: 1px;
+  gap: 28px;
+  color: #7367f0;
+  border: 0.7px solid #7367f0;
+}
+.junepayslip p {
+  margin-bottom: 20px;
+}
+.payslipheading {
+  width: 619px;
+  height: 49px;
+  background: #7367f0;
+  font-family: Poppins;
+  font-size: var(--subHeading);
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+.payslipbox-1 {
+  margin: 16px 0 0 52px;
+  /* width: 619px; */
+  height: 431px;
+  /* min-height: 100vh; */
+  /* overflow-y: scroll; */
+  background: #f5f0f0;
+}
+.select1{
+  margin-top:20px;
+}
+.selectoption{
+  margin-top:20px;
+  margin-left: 20px;
+  width: 250px;
+  /* border: 0.7px solid #7367F0; */
+  font-family: Public Sans;
+  color: #7367F0;
+  border-radius: 5px;
+}
+.indicatorContainer svg{
+  fill: #7367F0 !important; /* Set the desired color */
+}
+.css-1dimb5e-singleValue {
+  color: #7367F0 !important;
+}
+.year{
+  color: #7367f0;
+}
+.css-13cymwt-control{
+  border:none;
+}
+.css-1u9des2-indicatorSeparator{
+  background: none;
+}
+.css-1dimb5e-singleValue{
+color:#7367f0;
+}
+.css-1xc3v61-indicatorContainer{
+  color:#7367F0;
+}
+.selectoption1{
+  margin-top:30px;
+  margin-left: 20px;
+  width: 250px;
+  /* border: 0.5px solid #7367F0; */
+  font-family: Public Sans;
+  /* color: #7367F0; */
+  /* border-radius: 5px; */
+}
+.css-qbdosj-Input{
+  color:#7367f0;
+}
+.subheading{
+  background: #7367f0;
+  color: #ffffff;
+}
+.payslipheading p {
+  padding: 15px;
+}
+.textandicon {
+  display: flex;
+  align-items: center;
+  font-family: Public Sans;
+font-size: var(--subPara1);
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+color: #7367f0;
+  margin: 4px 0 0 38px;
+}
+.payslipemptybox {
+  /* width: 563px; */
+  /* height: 669px; */
+  min-height: 50vh;
+  background: #ffffff;
+  margin: 28px;
+}
+.downloadpay{
+  width: 193px;
+/* height: 43px; */
+padding:1px;
+margin-left:405px;
+/* position: fixed; */
+/* padding: 12px, 16px, 12px, 16px; */
+border-radius: 4px;
+/* gap: 10px; */
+background: linear-gradient(180deg, #7367F0 0%, rgba(115, 103, 240, 0.88) 57.81%, #7367F0 100%);
+box-shadow: 0px 5px 8px 0px #0000001A;
+
+}
+.downloadpay>p{
+  font-family: Public Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+/* letter-spacing: 0em; */
+text-align: center;
+color: #FFFFFF;
+
+}

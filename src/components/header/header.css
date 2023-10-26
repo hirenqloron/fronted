@@ -1,0 +1,129 @@
+.header-container {
+  border-radius: 6px !important;
+  background-color: #ffffff;
+  /* background-color: red; */
+}
+.for-header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  box-shadow: rgba(47, 43, 61, 0.14) 0px 2px 6px 0px !important;
+  padding: 10px 20px;
+}
+.searchBar-header {
+  width: 555px;
+  /* //30%; */
+  /* border: 1px solid red; */
+  display: flex;
+  background-color: #F6F5F8;
+  border: 0.5px solid #F6F5F8;
+  /* border-radius: 10px; */
+}
+.btn-search {
+  border: none;
+  width: 50px;
+  background-color: #F6F5F8 !important;
+}
+.input-search {
+  margin: 0px;
+  width: 200px;
+  border: none;
+  line-height: 1.467;
+  font-size: 0.9375rem;
+  font-family: "Public Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+  color: rgba(47, 43, 61, 0.75);
+  top: 5px;
+  outline: none;
+  background-color: #F6F5F8 !important;
+  /* user-select: none; */
+}
+.input-search::placeholder {
+  color: rgba(47, 43, 61, 0.42); /* Desired color for the placeholder text */
+}
+/* .img-dp-section {
+  position: relative;
+}
+.active-circle-dp {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(10, 156, 10);
+  top: 32px;
+  right: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+} */
+.img-dp {
+  width: 40px;
+  cursor: pointer;
+}
+.right-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  margin: 0 6px;
+}
+.icons-right-header {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: 1px solid red; */
+  /* margin: 0 10px; */
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.icons-right-header:hover {
+  background-color: rgba(47, 43, 61, 0.05);
+}
+.notification-circle {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+  margin-top: -15px;
+  margin-left: 13px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+.dark-mode {
+  background-color:blueviolet; 
+  color: #8ab4f8;           
+}
+
+.dark-mode a {
+  color: #4e86e4; 
+}
+.dark-mode button {
+  background-color: #353535; 
+  color: #8ab4f8;            
+}
+.logoText{
+  display: flex;
+}
+.logoText .iconSetting {
+  margin-left: 1rem;
+}
+.logoText h3{
+font-family: 'Public Sans';
+font-size: 16px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #7367F0;
+
+}

@@ -1,0 +1,134 @@
+.card1 {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-family: Public Sans !important;
+}
+.card1 .d1 img {
+  margin: 0px 0px 15px 0px;
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+.d1 {
+  display: flex;
+  gap: 20px;
+  padding-left: 25px;
+}
+.di {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.di1 {
+  display: flex;
+  gap: 20px;
+}
+.di2 h4 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c9c9c9;
+}
+.card1 h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 25px;
+  color: #6d6976;
+}
+
+.card1 form {
+  padding-top: 30px;
+  padding-left: 25px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.btnDiv {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #7367f0;
+  box-shadow: 0px 5px 8px 0px #0000001a;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.btn1 {
+  background-color: #7367f0;
+  box-shadow: 0px 5px 8px 0px #00000040;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.btn2 {
+  color: #c4c5c9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #f1f1f2;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+  outline: none;
+  border: none;
+}
+
+.card2 {
+  margin-top: 20px;
+  padding-bottom: 30px;
+  font-family: Public Sans !important;
+  padding-left: 25px;
+}
+.card2 h1 {
+  margin: 30px 0px 15px 0px;
+  color: #6d6976;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.btn3 {
+  margin-top: 15px;
+  max-width: 180px;
+  height: 36px;
+  padding: 10px 24px 10px 24px;
+  border-radius: 4px;
+  gap: 10px;
+  background: linear-gradient(180deg, #e89b9b 0%, #ea5455 100%);
+border: none;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}

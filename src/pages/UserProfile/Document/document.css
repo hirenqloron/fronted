@@ -1,0 +1,738 @@
+.document-container {
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 10px;
+  margin-top: 25px;
+  display: flex;
+}
+
+.iteam-contener {
+  border: 1px solid #7367f0;
+  height: 300px;
+  width: 220px;
+ 
+}
+
+.employ-title h1 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+.emp-title {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.deg-cer {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 14.581px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.deg-cer button {
+  border: none;
+ 
+  font-family: Poppins;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active-button {
+  background-color: #7367f0;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 220px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.active-button11{
+  position: relative;
+
+  
+  color: #7367F0;
+ margin-bottom: 0px;
+ 
+  text-align: center;
+}
+
+.active-button1{
+  position: relative;
+
+  
+  color: #7367F0;
+  padding-bottom: 10px;
+ 
+  text-align: center;
+  
+  
+}
+
+
+
+.active-button11::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Position it in the middle horizontally */
+  bottom: 0;
+  transform: translateX(-50%); /* Center it horizontally */
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #7367F0; /* Adjust the color as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-container {
+  margin-left: 15px;
+}
+
+.content {
+  text-align: center;
+}
+
+.degree-container {
+  display: grid;
+  grid-template-columns: 300px;
+
+  gap: 20px;
+}
+
+.identi-container {
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 15px;
+}
+
+.degree-iteam {
+  padding: 10px;
+
+  height: 100px;
+  width: 600px;
+  
+  background-color: #fff;
+    
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+
+.degree-iteam-sign{
+  padding: 10px;
+
+  height: 70px;
+  width: 600px;
+  
+  background-color: #fff;
+    
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+    margin-top: 30px;
+}
+.degree-iteam1 {
+  padding: 10px;
+
+  height: 150px;
+  width: 600px;
+  background-color: white;
+  background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+
+.identify-iteam {
+  padding: 10px;
+
+  height: 50px;
+  width: 600px;
+  background-color: white;
+  background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+
+.identify-iteam1 {
+  padding: 10px;
+
+  height: 150px;
+  width: 600px;
+  background-color: white;
+  background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+
+.degree-title {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  margin-left: 15px;
+}
+
+.circle-cone{
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.degree-title img {
+  height: 25px;
+  width: 25px;
+  background-color: #7367f0;
+
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.degree-1 {
+  padding-left: 15px;
+}
+
+.degree-title1 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 9.611px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 53px;
+}
+
+.secure {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 45px;
+  display: flex;
+  
+ 
+}
+.secure svg {
+  padding-top: 15px;
+}
+
+
+
+.only-selected {
+  color: #7367f0;
+  font-family: Poppins;
+  font-size: 7.61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 70px;
+  
+}
+
+.header-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 10px;
+}
+
+.div-dot {
+  width: 15px !important;
+  height: 3.5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 7px;
+  border: 2px solid #7367f0;
+}
+.pen-btn {
+  margin-left: 310px;
+}
+
+.dot-1 {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #7367f0;
+  display: inline-block;
+  margin: 0px 1px;
+}
+
+.dot-2 {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #7367f0;
+  display: inline-block;
+  margin: 0px 1px;
+}
+
+.dot-3 {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #7367f0;
+  display: inline-block;
+  margin: 0px 1px;
+}
+.header-icon button {
+  border: none;
+  padding: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #7367f0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-icon h1 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pending-ver {
+  font-family: Poppins;
+  font-size: 6.489px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  padding: 2px 5px;
+}
+
+.pending-ver button {
+  padding: 2px 5px;
+  background-color: #7367f0;
+}
+
+.degree-branch {
+  display: flex;
+  justify-content: space-between;
+}
+.degree-branch {
+  color: #97949c;
+  font-family: Public Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px;
+}
+
+.per--cgp {
+  margin-right: 95px;
+}
+
+.spalization {
+  color: #403e44;
+  font-family: Public Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account {
+  margin-right: 65px;
+}
+.account1 {
+  margin-right: 160px;
+}
+
+.identity-icon {
+  display: flex;
+  padding: 15px 15px;
+}
+
+.adhar-title {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.cross-icon {
+  margin-left: 30px;
+}
+
+.add-btn {
+  color: #7367f0;
+  font-family: Poppins;
+  
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 2.023px;
+  border: 1px solid #7367f0;
+  margin-left: 320px;
+  align-items: center;
+  justify-content: center;
+}
+.add-btn button {
+  border: none;
+  background-color: white;
+  color: #7367f0;
+}
+
+.adhar-title1 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+}
+
+.cross-icon1 {
+  margin-left: 50px;
+}
+
+.cross-icon2 {
+  margin-left: 5px;
+}
+.cross-icon3 {
+  margin-left: 35px;
+}
+
+.paencard-sec {
+  display: flex;
+}
+
+.paencard-sec img {
+  margin-left: 15px;
+}
+
+.pen-card {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+}
+
+.onefile-sec {
+  color: #7367f0;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 300px;
+}
+.onefile-sec svg {
+  margin-right: 8px;
+}
+
+.pending-verfi {
+  font-family: Poppins;
+  font-size: 7.538px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
+  margin-top: 5px;
+}
+
+.pending-verfi button {
+  font-family: Poppins;
+  font-size: 7.538px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.menu-dot {
+  color: darkgrey;
+  display: flex;
+  flex: end;
+}
+
+.pencard-devide {
+  margin-top: 15px;
+}
+
+.parma-acc {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+
+.password-view {
+  display: flex;
+  margin: 5px 15px;
+}
+.password-view svg {
+  margin-left: 5px;
+}
+
+.jame-name {
+  color: #7c7983;
+  font-family: Poppins;
+  font-size: 9.61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}
+
+.james-date {
+  color: #7c7983;
+  font-family: Poppins;
+  font-size: 9.61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+
+.jemes-surname {
+  color: #7c7983;
+  font-family: Poppins;
+  font-size: 9.61px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 100px;
+}
+
+.view-paasord {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.signature-btn {
+  margin-left: 450px;
+  margin-top: -15px;
+}
+
+.signature-btn button {
+  border: none;
+  background-color: #7367f0;
+  color: white;
+  padding: 15px 25px;
+}
+
+.degree-2 {
+  color: #343334;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+}
+.accountname-1 {
+  color: #403e44;
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 70px;
+}
+
+.date-join {
+  color: #403e44;
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 50px;
+}
+
+.spalization-2 {
+  color: #403e44;
+  font-family: Public Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  margin-left: 15px;
+}
+
+.degree-branch-5 {
+  color: #97949c;
+  font-family: Public Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.per--cgp1 {
+  margin-left: 130px;
+}
+
+.account1 {
+  margin-left: 25px;
+}
+.year-of{
+  margin-right: 70px;
+}
+
+.june-5{
+  margin-right: 80px;
+}
+.uniersity{
+  margin-right: 40px;
+}
+
+.march-31{
+  margin-right: 30px;
+}
+
+.account100{
+  color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 115px;
+}
+
+.signature-document{
+  width: 333px;
+height: 52px;
+border-radius: 4px;
+background: #DFDFDF;
+margin-top: 30px;
+margin-left: 70px;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.document-svg svg{
+  margin-top: 15px;
+}
+
+.attech-signature{
+  color: #7367F0;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 12px;
+margin-left: 5px;
+}
+
+.cross-svg{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.bt-cont{
+  display: flex;
+  margin-top: 500px;
+  justify-content: flex-end;
+}
+
+.sign-doc{
+  width: 550px;
+height: 42px;
+
+border-radius: 3px;
+background: #7367F0;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+.div-sign{
+  color: #FFF;
+font-family: Poppins;
+font-size: 10px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-left: 15px;
+padding-top: 15px;
+}
+
+
+.secur-title{
+  margin-top: 17px;
+  margin-left: 5px;
+}

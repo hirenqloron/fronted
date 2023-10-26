@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-public-sans: "Public Sans";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --subPara2: 10px;
+  --subPara1: 12px;
+   --subHeading: 14px;
+   --mainHeading: 16px;
+   --fontWeight400: 400;
+  --font-size-sm-3: 13.3px;
+  --font-size-6xs-5: 6.5px;
+  --font-size-5xs-7: 7.7px;
+  --font-size-6xs-8: 6.8px;
+  --font-size-2xs-7: 10.7px;
+  --font-size-mini: 15px;
+  --font-size-lg-4: 18.4px;
+  --font-size-xs-1: 11.1px;
+  --font-size-5xs: 8px;
+
+  /* Colors */
+  --color-whitesmoke-100: #f6f5f8;
+  --color-mediumslateblue-100: #8d63eb;
+  --color-mediumslateblue-200: #7367f0;
+  --color-black: #000;
+  --color-dimgray-100: #6d6976;
+  --color-white: #fff;
+  --color-darkgray-100: #a3a0a0;
+  --color-darkgray-200: #9f9ea2;
+  --color-limegreen-100: #2bd35a;
+  --color-gray-100: #87858a;
+  --color-gray-200: rgba(255, 255, 255, 0.1);
+  --color-mediumpurple: #8e84f3;
+  --color-gainsboro-100: #e4dada;
+  --color-lavender: #eae6f2;
+  --color-forestgreen: #08a734;
+  --color-silver: #b7b5bb;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-10xs: 3px;
+  --gap-smi-5: 12.5px;
+  --gap-2xs: 11px;
+  --gap-8xs: 5px;
+  --gap-6xs: 7px;
+  --gap-6xl-4: 25.4px;
+  --gap-3xs-2: 9.2px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-base-7: 16.7px;
+  --padding-13xl-5: 32.5px;
+  --padding-5xs-4: 7.4px;
+  --padding-xl: 20px;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-8xs-2: 4.2px;
+  --br-9xs: 4px;
+  --br-8xs-5: 4.5px;
+  --br-2xs: 11px;
+  --br-10xs: 3px;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root{
+  max-width: 225px;
+}
+label[data-shrink=false]+.MuiInputBase-formControl .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  height: auto;
+}
+span.MuiStepConnector-line.MuiStepConnector-lineHorizontal.css-z7uhs0-MuiStepConnector-line {
+  display: none;
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #7367f0;
+}

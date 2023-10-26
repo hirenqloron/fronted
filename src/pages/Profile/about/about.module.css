@@ -1,0 +1,27 @@
+
+.main{
+    font-family: var(--font-poppins);
+    margin-top:8px;
+}
+.d1{
+    display: flex;
+    /* gap: 6px; */
+}
+.btn{
+    cursor: pointer;
+    margin: 0px;
+    padding: 15px 12px ;
+    font-size: 16px;
+    line-height: 24px;
+    color:#7C7983
+
+}
+.btnActive{
+    background-color: var(--color-mediumslateblue-200);
+color:var( --color-white);
+cursor: pointer;
+margin: 0px;
+padding: 15px 12px ;
+font-size: 16px;
+line-height: 24px;
+}

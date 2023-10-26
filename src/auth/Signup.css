@@ -1,0 +1,271 @@
+.split-container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  margin: 0px;
+  font-family: var(--font-poppins) !important;
+}
+.inner-slipt-signupContainer {
+  width: 75%;
+  min-height: 94vh;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 40px;
+  box-shadow: 0px 4.766666412353516px 7.62666654586792px 0px #00000040;
+  overflow: hidden;
+  /* align-items: center; */
+}
+
+.left-side2 {
+  display: flex;
+  width: 55%;
+}
+
+.left-side2 img {
+  height: 100% !important;
+  background-color: #f8f8f8;
+  background-size: cover;
+}
+
+/* .image-container2 {
+  width: 90%;
+  min-width: 500px;
+  height: 90vh;
+} */
+.image-container2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-side2 {
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 30px 0 0 15px;
+  margin: 20px 0 0 0;
+}
+.logo5 {
+  display: flex;
+}
+.right-side2 .logo5 img {
+  height: 80px;
+}
+.image-captcha-image2 {
+  max-width: 270px;
+}
+h5 {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.login-form2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 15px;
+}
+.login-form2 h2 {
+  margin-top: 0px !important;
+}
+.input-group2 {
+  display: flex;
+  margin-bottom: 10px;
+}
+.input-field-domain-container2 {
+  display: flex;
+  gap: 1px;
+}
+.input-label2 {
+  display: block;
+  font-weight: bold;
+}
+
+.remember-forgot2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-me2 label {
+  display: flex;
+  align-items: center;
+}
+
+.forgot-password-button2 {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  border: 0.8px solid #ccc;
+  border-radius: 1px;
+}
+
+.divider2 {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider2 h3 {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.create-account2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-account2 a {
+  color: blue;
+  text-decoration: none;
+}
+
+.sign2 {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background-color: #7367f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: var(--subHeading);
+  cursor: pointer;
+}
+
+.icon-button-group2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon-button2 {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: blue;
+}
+
+.microsoft-button2 {
+  margin-bottom: 10px;
+}
+
+.icon-button:hover2 {
+  background-color: #f5f5f5;
+}
+
+.sendbox2 {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding-top: 12px;
+  background-color: #7367f0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-label-domain2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.input-field-domain2 {
+  max-width: 255px;
+}
+.company-domain-text2 {
+  width: 45%;
+  display: flex;
+
+  background-color: #6e62f4;
+  text-align: start;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 8px;
+  align-items: center;
+}
+
+.captcha-input2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 98%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.captcha-image2 {
+  margin-right: 10px;
+}
+
+.input-field-captcha2 {
+  width: 145px;
+  height: 20px;
+  padding: 10px;
+  margin-left: 6px;
+}
+
+.others2 {
+  display: flex;
+  color: #7367f0;
+  font-family: Poppins;
+  font-size: 10.837px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  font-size: var(--subHeading);
+}
+
+.others2 img {
+  width: 14px;
+}
+.others2 p {
+  padding-left: 5px;
+}
+
+.error-message {
+  padding: 0 0 8px 0px;
+}
+@media (max-width: 1000px) {
+  .inner-slipt-signupContainer {
+    width: 85%;
+  }
+  .image-container2 {
+    width: 100%;
+  }
+}
+@media (max-width: 810px) {
+  .inner-slipt-signupContainer {
+    width: 99%;
+  }
+}
+@media (max-width: 768px) {
+  .inner-slipt-signupContainer {
+    justify-content: center !important;
+  }
+  .left-side2 {
+    display: none;
+  }
+}

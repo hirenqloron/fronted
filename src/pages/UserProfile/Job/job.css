@@ -1,0 +1,489 @@
+.grid-main {
+    display: grid;
+    grid-template-columns: 650px 300px;
+    grid-template-rows: 1fr ;
+    grid-gap: 20px;
+    
+    border-radius: 5px;
+    
+  }
+  
+  .column-1,
+  .column-2,
+  .column-3,
+  .column-4 {
+    padding: 10px;
+    background-color: #fff;
+    
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+  }
+  
+  .column-1{
+    height: 300px;
+  }
+
+  .column-2 {
+    height: 400px;
+  }
+  
+  .column-3{
+    height: 350px;
+    
+  }
+  .column-4 {
+    height: 180px;
+  }
+  
+  .column-2,
+  .column-4 {
+    grid-row: span 2;
+  }
+
+  .job-header{
+    color: #343334;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+  }
+
+  .employ-no{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 145px;
+margin-top: 25px;
+  }
+
+  .emoply-id{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+ padding-left: 15px;
+ padding-right: 153px;
+ 
+  }
+
+
+  .job-primary{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+padding-top: 25px;
+padding-left: 15px;
+margin-right: 115px;
+  }
+
+  .job-primary-1{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+padding-left: 15px;
+margin-right: 180px;
+  }
+
+  .probation{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 145px;
+padding-top: 25px;
+
+  }
+
+
+  .notic-period{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: -20px;
+  }
+
+  .work-type{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 25px;
+padding-left: 15px;
+  }
+
+  .parament{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 15px;
+  }
+  
+  .bond{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 10px;
+padding-left: 15px;
+  }
+
+  .not-set{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+  }
+
+  .employ-shift{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-top: 15px;
+margin-left: 15px;
+margin-right: 120px;
+  }
+
+  .leave-plan{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 120px;
+padding-top: 15px;
+  }
+
+
+  .job-primary-2{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: -5px;
+  }
+
+  .Attendance-Schem{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+padding-top: 25px;
+margin-right: 60px;
+
+  }
+
+  .shechme{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 85px;
+
+
+  }
+
+
+  .shift-weekly{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+padding-top: 25px;
+margin-right: 90px;
+  }
+
+  .emoply-id2{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 155px;
+  }
+
+  .disable-tracting{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 11.62px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+  }
+
+  .shift-1{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+margin-left: 15px;
+margin-right: 160px;
+  }
+
+  .bussiness-unit{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 15px;
+margin-left: 15px;
+  }
+
+  .bussiness-unit1{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+  }
+
+
+  .businee-unit2{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+  }
+
+  .bussiness-unit3{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+  }
+
+  .business-unit4{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+
+  }
+
+  .business-unit5{
+    color: #403E44;
+    font-family: Public Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+  }
+
+  .bussiness-unit6{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+  }
+
+  .busines-unit-7{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+  }
+
+
+  .business-unit8{
+    color: #97949C;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+  }
+
+  .business-unit9{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+  }
+
+  .bussiness-unit10{
+    color: #7367F0;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+margin-left: 15px;
+  }
+
+  .bussiness11{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+display: flex;
+margin-left: 15px;
+  }
+
+  .bussiness11 h1{
+    color: #403E44;
+font-family: Public Sans;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 6px;
+padding-left: 5px;
+  }
+  
+  .bussiness-unit11{
+    color: #7367F0;
+font-family: Public Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 15px;
+padding-top: 15px;
+  }
+
+  .doot{
+    width: calc(100% - 5px);
+    background-color: #7367F0;
+    overflow: hidden;
+    color: white;
+    border-radius: 30%;
+    text-align: center;
+  }
+
+.dot-div {
+  background-color: #7367F0;
+  width: 20px !important;
+  height: 3.5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #ffff;
+  display: inline-block;
+  margin: 0px 1px;
+}
+ 
